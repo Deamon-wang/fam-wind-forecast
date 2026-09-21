@@ -1,0 +1,42 @@
+2026-09-15 11:57:48,623 - INFO - REVISION RUN model=QFAM_R seed=0 pred_len=3 offset_days=0
+2026-09-15 11:57:48,623 - INFO - batch_size=128, lr=0.001, epochs=100, patience=10
+2026-09-15 11:57:48,623 - INFO - Loading winf data from: /data1/home/wangwei/Huaneng_0915/QFAM_code/dataset/winf_fam1.csv
+2026-09-15 11:57:48,645 - INFO -   Raw rows: 8303
+2026-09-15 11:57:48,665 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-09-15 11:57:48,667 - INFO -   After clean & align: 8760 rows
+2026-09-15 11:57:48,676 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-09-15 11:57:48,693 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-09-15 11:57:48,696 - INFO -   Added 6 obs_lag features
+2026-09-15 11:57:48,696 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-09-15 11:57:48,716 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-09-15 11:57:48,729 - INFO - n=8110, train=[0,5677), val=[5677,6893), test=[6893,8110) (2021-11-08 15:00:00 .. 2022-01-01 07:00:00)
+2026-09-15 11:57:48,732 - INFO - samples: train=5579 val=1214 test=1206
+2026-09-15 11:57:50,690 - INFO - params: trainable=652,679 all=652,703
+2026-09-15 11:59:59,132 - INFO - REVISION RUN model=QFAM_R seed=0 pred_len=3 offset_days=0
+2026-09-15 11:59:59,132 - INFO - batch_size=128, lr=0.001, epochs=100, patience=10
+2026-09-15 11:59:59,133 - INFO - Loading winf data from: /data1/home/wangwei/Huaneng_0915/QFAM_code/dataset/winf_fam1.csv
+2026-09-15 11:59:59,158 - INFO -   Raw rows: 8303
+2026-09-15 11:59:59,181 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-09-15 11:59:59,184 - INFO -   After clean & align: 8760 rows
+2026-09-15 11:59:59,193 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-09-15 11:59:59,210 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-09-15 11:59:59,214 - INFO -   Added 6 obs_lag features
+2026-09-15 11:59:59,214 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-09-15 11:59:59,237 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-09-15 11:59:59,252 - INFO - n=8110, train=[0,5677), val=[5677,6893), test=[6893,8110) (2021-11-08 15:00:00 .. 2022-01-01 07:00:00)
+2026-09-15 11:59:59,256 - INFO - samples: train=5579 val=1214 test=1206
+2026-09-15 12:00:01,451 - INFO - params: trainable=652,679 all=652,703
+2026-09-15 12:02:09,483 - INFO - REVISION RUN model=QFAM_R seed=0 pred_len=3 offset_days=0
+2026-09-15 12:02:09,483 - INFO - batch_size=128, lr=0.001, epochs=100, patience=10
+2026-09-15 12:02:09,483 - INFO - Loading winf data from: /data1/home/wangwei/Huaneng_0915/QFAM_code/dataset/winf_fam1.csv
+2026-09-15 12:02:09,503 - INFO -   Raw rows: 8303
+2026-09-15 12:02:09,521 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-09-15 12:02:09,524 - INFO -   After clean & align: 8760 rows
+2026-09-15 12:02:09,532 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-09-15 12:02:09,547 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-09-15 12:02:09,550 - INFO -   Added 6 obs_lag features
+2026-09-15 12:02:09,550 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-09-15 12:02:09,572 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-09-15 12:02:09,582 - INFO - n=8110, train=[0,5677), val=[5677,6893), test=[6893,8110) (2021-11-08 15:00:00 .. 2022-01-01 07:00:00)
+2026-09-15 12:02:09,586 - INFO - samples: train=5579 val=1214 test=1206
+2026-09-15 12:02:11,559 - INFO - params: trainable=652,679 all=652,703

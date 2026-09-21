@@ -1,0 +1,2915 @@
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 26
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 1 pending: 182 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 21
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 2 pending: 177 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 17
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 3 pending: 173 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 13
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 4 pending: 169 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 13
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 5 pending: 169 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 11
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 6 pending: 167 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 9
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 7 pending: 165 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 9
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 8 pending: 165 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 7
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 9 pending: 163 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 6
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 10 pending: 162 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 2
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 11 pending: 158 ===
+collect done; pending jobs: 0
+job DAE581E6 state=2
+collect done; pending jobs: 1
+job 1E7728EE state=2
+collect done; pending jobs: 6
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 12 pending: 157 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 1E7728EE state=2
+collect done; pending jobs: 5
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 13 pending: 155 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 1E7728EE state=2
+collect done; pending jobs: 2
+job 74DB9613 state=2
+collect done; pending jobs: 6
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 14 pending: 152 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 74DB9613 state=2
+collect done; pending jobs: 3
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 15 pending: 147 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 74DB9613 state=2
+collect done; pending jobs: 1
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 16 pending: 145 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 119BCC9F state=2
+collect done; pending jobs: 6
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 17 pending: 144 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 119BCC9F state=2
+collect done; pending jobs: 3
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 18 pending: 141 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 119BCC9F state=2
+collect done; pending jobs: 1
+job 332C569E state=2
+collect done; pending jobs: 6
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 19 pending: 139 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 332C569E state=2
+collect done; pending jobs: 5
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 20 pending: 137 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 332C569E state=2
+collect done; pending jobs: 3
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 21 pending: 135 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 332C569E DONE (192 results, qpu 63713 ms)
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 18
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 22 pending: 132 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 15
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 23 pending: 129 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 12
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 24 pending: 126 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 9
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 25 pending: 123 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 6
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 26 pending: 120 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 3
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 27 pending: 117 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job F75A6D20 state=2
+collect done; pending jobs: 1
+job A5D22C1B state=2
+collect done; pending jobs: 18
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 28 pending: 115 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A5D22C1B state=2
+collect done; pending jobs: 16
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 29 pending: 112 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A5D22C1B state=2
+collect done; pending jobs: 13
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 30 pending: 109 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A5D22C1B state=2
+collect done; pending jobs: 11
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 31 pending: 107 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A5D22C1B state=2
+collect done; pending jobs: 7
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 32 pending: 103 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A5D22C1B state=2
+collect done; pending jobs: 4
+job AFE0203F state=2
+collect done; pending jobs: 18
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 33 pending: 100 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A5D22C1B DONE (192 results, qpu 64155 ms)
+collect done; pending jobs: 0
+job AFE0203F state=2
+collect done; pending jobs: 17
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 34 pending: 95 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job AFE0203F state=2
+collect done; pending jobs: 13
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 35 pending: 91 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job AFE0203F state=2
+collect done; pending jobs: 8
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 36 pending: 86 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job AFE0203F state=2
+collect done; pending jobs: 4
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 37 pending: 82 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job AFE0203F DONE (192 results, qpu 61236 ms)
+collect done; pending jobs: 0
+job ADD0A4E4 state=2
+collect done; pending jobs: 5
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 38 pending: 77 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job ADD0A4E4 state=2
+collect done; pending jobs: 1
+job 759230E4 state=2
+collect done; pending jobs: 6
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 39 pending: 73 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 759230E4 state=2
+collect done; pending jobs: 5
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 40 pending: 71 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 759230E4 state=2
+collect done; pending jobs: 2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 41 pending: 68 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 42 pending: 66 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 55C0F73C state=2
+collect done; pending jobs: 3
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 43 pending: 63 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 55C0F73C DONE (192 results, qpu 63131 ms)
+collect done; pending jobs: 0
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 44 pending: 60 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 6AA3BC04 state=2
+collect done; pending jobs: 3
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 45 pending: 57 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 6AA3BC04 state=2
+collect done; pending jobs: 1
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 46 pending: 55 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 16
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 47 pending: 52 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 14
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 48 pending: 50 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 11
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 49 pending: 47 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 8
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 50 pending: 44 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 6
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 51 pending: 42 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 4
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 52 pending: 40 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 3
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 53 pending: 39 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 54 pending: 38 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D state=2
+collect done; pending jobs: 1
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 55 pending: 37 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 16
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 56 pending: 34 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 15
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 57 pending: 33 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 14
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 58 pending: 32 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 13
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 59 pending: 31 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 12
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 60 pending: 30 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 11
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 61 pending: 29 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 9
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+  File "/data1/home/wangwei/miniforge3/envs/wang_py310/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/data1/home/wangwei/miniforge3/envs/wang_py310/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/data1/home/wangwei/miniforge3/envs/wang_py310/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/data1/home/wangwei/miniforge3/envs/wang_py310/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 24660 column 13 (char 360154)
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 62 pending: 18 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 9
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 63 pending: 27 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 7
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 64 pending: 25 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 6
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 65 pending: 24 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 6
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 66 pending: 24 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 67 pending: 22 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 68 pending: 22 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 69 pending: 22 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 70 pending: 22 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 71 pending: 22 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 2
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 72 pending: 20 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 2
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 73 pending: 20 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 state=2
+collect done; pending jobs: 2
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 74 pending: 20 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 2EE906C3 DONE (192 results, qpu 65009 ms)
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 75 pending: 18 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 18
+=== finalize round 76 pending: 18 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 16
+=== finalize round 77 pending: 16 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 15
+=== finalize round 78 pending: 15 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 14
+=== finalize round 79 pending: 14 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 13
+=== finalize round 80 pending: 13 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 13
+=== finalize round 81 pending: 13 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 12
+=== finalize round 82 pending: 12 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 12
+=== finalize round 83 pending: 12 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 10
+=== finalize round 84 pending: 10 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 10
+=== finalize round 85 pending: 10 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 8
+=== finalize round 86 pending: 8 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 8
+=== finalize round 87 pending: 8 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 8
+=== finalize round 88 pending: 8 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 8
+=== finalize round 89 pending: 8 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 7
+=== finalize round 90 pending: 7 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 6
+=== finalize round 91 pending: 6 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 6
+=== finalize round 92 pending: 6 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F state=2
+collect done; pending jobs: 3
+=== finalize round 93 pending: 3 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job A273404F DONE (192 results, qpu 61191 ms)
+collect done; pending jobs: 1
+=== finalize round 94 pending: 1 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 630F3DF2 state=2
+collect done; pending jobs: 1
+=== finalize round 95 pending: 1 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 630F3DF2 state=2
+collect done; pending jobs: 1
+=== finalize round 96 pending: 1 ===
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 630F3DF2 DONE (192 results, qpu 61868 ms)
+collect done; pending jobs: 0
+=== finalize round 97 pending: 0 ===
+collected z entries: 6912
+folds available: [1, 2, 3]
+coverage: 1.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (12): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P1high",
+ "mode": "high",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 12,
+ "coverage": 1.0,
+ "metrics_hw": {
+  "rmse": 4.667325249452476,
+  "mae": 3.587093699187424,
+  "r2": 0.9123483407969251
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688438415527
+ },
+ "mean_abs_dz_vs_sim": 0.22285899051127142,
+ "accounting": {
+  "jobs": 36,
+  "programs": 6912,
+  "shots_per_program": 1000,
+  "total_shots": 6912000,
+  "total_time_ms": 49096751,
+  "qpu_time_ms": 2328418
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1high.json
+collected z entries: 6912
+folds available: [1, 2, 3]
+coverage: 1.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (12): [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P3high",
+ "mode": "high",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 12,
+ "coverage": 1.0,
+ "metrics_hw": {
+  "rmse": 8.195158860474853,
+  "mae": 5.706100249139354,
+  "r2": 0.7668061399337045
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 8.154790878295898,
+  "mae": 5.684911251068115,
+  "r2": 0.7690978050231934
+ },
+ "mean_abs_dz_vs_sim": 0.4449052487952471,
+ "accounting": {
+  "jobs": 36,
+  "programs": 6912,
+  "shots_per_program": 1000,
+  "total_shots": 6912000,
+  "total_time_ms": 164932696,
+  "qpu_time_ms": 2325879
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3high.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1highNM",
+ "mode": "high",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.900904316446964,
+  "mae": 3.8275210002061084,
+  "r2": 0.8378449990249976
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.13844228183712665,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 45919751,
+  "qpu_time_ms": 387595
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1highNM.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3highNM",
+ "mode": "high",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.758053063912315,
+  "mae": 3.8801183239975714,
+  "r2": 0.832958016643464
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.23898670114590606,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 87694545,
+  "qpu_time_ms": 389447
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3highNM.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1rand0NM",
+ "mode": "random0",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.913280813145861,
+  "mae": 3.8543979815491145,
+  "r2": 0.8370249687692515
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.09767890139172469,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 48718078,
+  "qpu_time_ms": 376519
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand0NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1rand0MIT",
+ "mode": "random0",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.9566404090601335,
+  "mae": 3.914069315137984,
+  "r2": 0.8341357740493438
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.2632503765363956,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 197710072,
+  "qpu_time_ms": 1109564
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand0MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand0NM",
+ "mode": "random0",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.8402943472476725,
+  "mae": 3.9636717279353144,
+  "r2": 0.8271335867881703
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.15650167229233516,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 90904462,
+  "qpu_time_ms": 374633
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand0NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand0MIT",
+ "mode": "random0",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.782588154005099,
+  "mae": 3.9155161845482107,
+  "r2": 0.8312308577355492
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.4302861387533047,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 316654728,
+  "qpu_time_ms": 1109671
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand0MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1rand1NM",
+ "mode": "random1",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.919251046016535,
+  "mae": 3.8614380463683613,
+  "r2": 0.8366286592231517
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.13792743364900897,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 53709813,
+  "qpu_time_ms": 391895
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand1NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1rand1MIT",
+ "mode": "random1",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.951257068537376,
+  "mae": 3.9279551495548373,
+  "r2": 0.8344958642111804
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.4434766237080381,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 229048939,
+  "qpu_time_ms": 1164321
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand1MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand1NM",
+ "mode": "random1",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.844198022426327,
+  "mae": 3.9610227827902995,
+  "r2": 0.8268546424119091
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.16938838204534512,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 94440113,
+  "qpu_time_ms": 386691
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand1NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand1MIT",
+ "mode": "random1",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.868293821824854,
+  "mae": 3.991450665710156,
+  "r2": 0.8251278541745205
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.44496339042678507,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 377732655,
+  "qpu_time_ms": 1163851
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand1MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1rand2NM",
+ "mode": "random2",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.896722395052378,
+  "mae": 3.8302054916649015,
+  "r2": 0.8381216133417768
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.18773198222989837,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 58793092,
+  "qpu_time_ms": 373774
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand2NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P1rand2MIT",
+ "mode": "random2",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.8878380299999495,
+  "mae": 3.847215707642164,
+  "r2": 0.838708488348656
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.900246620178223,
+  "mae": 3.8357150554656982,
+  "r2": 0.8378884792327881
+ },
+ "mean_abs_dz_vs_sim": 0.39677301383214203,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 251142676,
+  "qpu_time_ms": 1110378
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand2MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand2NM",
+ "mode": "random2",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.8361703319303455,
+  "mae": 3.9534468778464618,
+  "r2": 0.8274280317047797
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.1969119495939877,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 98014279,
+  "qpu_time_ms": 368351
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand2NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand2MIT",
+ "mode": "random2",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.908428465789884,
+  "mae": 4.013818842030332,
+  "r2": 0.8222326461802452
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.4032336735595163,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 478904471,
+  "qpu_time_ms": 1104009
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand2MIT.json
+=== cost accounting ===
+tag           jobs  progs    qpu_s    wall_s   s/circ
+P1high          36   6912   2328.4   49096.8   0.3369
+P1high6         36   6912   2328.4   49096.8   0.3369
+P1highNM         6   1152    387.6   45919.8   0.3365
+P1rand0MIT      18   3456   1109.6  197710.1   0.3211
+P1rand0NM        6   1152    376.5   48718.1   0.3268
+P1rand1MIT      18   3456   1164.3  229048.9   0.3369
+P1rand1NM        6   1152    391.9   53709.8   0.3402
+P1rand2MIT      18   3456   1110.4  251142.7   0.3213
+P1rand2NM        6   1152    373.8   58793.1   0.3245
+P3high          36   6912   2325.9  164932.7   0.3365
+P3high6         36   6912   2325.9  164932.7   0.3365
+P3highNM         6   1152    389.4   87694.5   0.3381
+P3rand0MIT      18   3456   1109.7  316654.7   0.3211
+P3rand0NM        6   1152    374.6   90904.5   0.3252
+P3rand1MIT      18   3456   1163.9  377732.7   0.3368
+P3rand1NM        6   1152    386.7   94440.1   0.3357
+P3rand2MIT      18   3456   1104.0  478904.5   0.3194
+P3rand2NM        6   1152    368.4   98014.3   0.3197
+test0            1     96     33.1      44.2   0.3448
+TOTAL          301  57696  19152.4 2857490.8   0.3320
+=== latex rows ===
+==== Table 7 lower block (regenerated protocol) ====
+[1~h]
+  Wukong (real, M3+ZNE) & 21.784 & 4.6673 & 3.5871 & 0.912348 \\
+  gap vs sim (same origins)  & -- & -0.2\% & -0.3\% & +0.0003 \\
+  sim-same-origins: 21.853 & 4.6748 & 3.598 & 0.912069
+  dz=0.2229 coverage=1.00
+[3~h]
+  Wukong (real, M3+ZNE) & 67.161 & 8.1952 & 5.7061 & 0.766806 \\
+  gap vs sim (same origins)  & -- & +0.5\% & +0.4\% & -0.0023 \\
+  sim-same-origins: 66.501 & 8.1548 & 5.6849 & 0.769098
+  dz=0.4449 coverage=1.00
+
+==== Table 8 (ablation, 6-origin subset) ====
+--- 1~h ---
+High-fidelity, no mitigation        & 24.019 & 4.9009 & 3.8275 & 0.837845 \\
+Random, no mitigation               & 24.106 & 4.9098 & 3.8487 & 0.837258 \\
+Random+M3/ZNE                       & 24.324 & 4.9319 & 3.8964 & 0.83578 \\
+--- 3~h ---
+High-fidelity, no mitigation        & 22.639 & 4.7581 & 3.8801 & 0.832958 \\
+Random, no mitigation               & 23.428 & 4.8402 & 3.9594 & 0.827139 \\
+Random+M3/ZNE                       & 23.553 & 4.8531 & 3.9736 & 0.826197 \\
+
+==== Accounting ====
+P3rand2NM    progs=  1152 shots=  1152000 wall=  98014s qpu=    368s
+P1high6      progs=  6912 shots=  6912000 wall=  49097s qpu=   2328s
+P3highNM     progs=  1152 shots=  1152000 wall=  87695s qpu=    389s
+P1high       progs=  6912 shots=  6912000 wall=  49097s qpu=   2328s
+P1highNM     progs=  1152 shots=  1152000 wall=  45920s qpu=    388s
+P1rand2MIT   progs=  3456 shots=  3456000 wall= 251143s qpu=   1110s
+P1rand1NM    progs=  1152 shots=  1152000 wall=  53710s qpu=    392s
+P1rand2NM    progs=  1152 shots=  1152000 wall=  58793s qpu=    374s
+P3high       progs=  6912 shots=  6912000 wall= 164933s qpu=   2326s
+P1rand1MIT   progs=  3456 shots=  3456000 wall= 229049s qpu=   1164s
+test0        progs=    96 shots=    96000 wall=     44s qpu=     33s
+P3high6      progs=  6912 shots=  6912000 wall= 164933s qpu=   2326s
+P3rand2MIT   progs=  3456 shots=  3456000 wall= 478904s qpu=   1104s
+P1rand0MIT   progs=  3456 shots=  3456000 wall= 197710s qpu=   1110s
+P3rand0NM    progs=  1152 shots=  1152000 wall=  90904s qpu=    375s
+P1rand0NM    progs=  1152 shots=  1152000 wall=  48718s qpu=    377s
+P3rand0MIT   progs=  3456 shots=  3456000 wall= 316655s qpu=   1110s
+P3rand1NM    progs=  1152 shots=  1152000 wall=  94440s qpu=    387s
+P3rand1MIT   progs=  3456 shots=  3456000 wall= 377733s qpu=   1164s
+TOTAL (excl. test0): programs=57600, shots=57600000, wall=793735.16 h, qpu=5310.91 h
+FINALIZE_DONE

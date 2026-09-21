@@ -1,0 +1,51 @@
+2026-09-15 14:29:56,897 - INFO - REVISION RUN model=QFAM_C seed=42 pred_len=1 offset_days=30
+2026-09-15 14:29:56,897 - INFO - batch_size=128, lr=0.001, epochs=100, patience=10
+2026-09-15 14:29:56,897 - INFO - Loading winf data from: /data1/home/wangwei/Huaneng_0915/QFAM_code/dataset/winf_fam1.csv
+2026-09-15 14:29:56,928 - INFO -   Raw rows: 8303
+2026-09-15 14:29:56,954 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-09-15 14:29:56,957 - INFO -   After clean & align: 8760 rows
+2026-09-15 14:29:56,968 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-09-15 14:29:56,989 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-09-15 14:29:56,993 - INFO -   Added 6 obs_lag features
+2026-09-15 14:29:56,993 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-09-15 14:29:57,015 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-09-15 14:29:57,027 - INFO - n=8110, train=[0,4957), val=[4957,6173), test=[6173,7390) (2021-10-09 15:00:00 .. 2021-11-29 07:00:00)
+2026-09-15 14:29:57,031 - INFO - samples: train=4861 val=1216 test=1206
+2026-09-15 14:29:58,302 - INFO - params: trainable=652,549 all=652,549
+2026-09-15 14:30:45,079 - INFO - [Epoch 001] train_loss=0.897044 val_MSE=0.428568 bad=0/10
+2026-09-15 14:31:29,836 - INFO - [Epoch 002] train_loss=0.322455 val_MSE=0.156230 bad=0/10
+2026-09-15 14:32:14,599 - INFO - [Epoch 003] train_loss=0.211770 val_MSE=0.140206 bad=0/10
+2026-09-15 14:32:58,200 - INFO - [Epoch 004] train_loss=0.166968 val_MSE=0.114910 bad=0/10
+2026-09-15 14:33:42,777 - INFO - [Epoch 005] train_loss=0.156737 val_MSE=0.118410 bad=1/10
+2026-09-15 14:34:27,407 - INFO - [Epoch 006] train_loss=0.147050 val_MSE=0.121296 bad=2/10
+2026-09-15 14:35:12,228 - INFO - [Epoch 007] train_loss=0.138278 val_MSE=0.112486 bad=0/10
+2026-09-15 14:35:56,844 - INFO - [Epoch 008] train_loss=0.132598 val_MSE=0.114526 bad=1/10
+2026-09-15 14:36:40,952 - INFO - [Epoch 009] train_loss=0.128683 val_MSE=0.090696 bad=0/10
+2026-09-15 14:37:25,006 - INFO - [Epoch 010] train_loss=0.128246 val_MSE=0.093387 bad=1/10
+2026-09-15 14:38:09,524 - INFO - [Epoch 011] train_loss=0.123740 val_MSE=0.103715 bad=2/10
+2026-09-15 14:38:54,581 - INFO - [Epoch 012] train_loss=0.119727 val_MSE=0.103293 bad=3/10
+2026-09-15 14:39:37,996 - INFO - [Epoch 013] train_loss=0.121336 val_MSE=0.129838 bad=4/10
+2026-09-15 14:40:22,475 - INFO - [Epoch 014] train_loss=0.119303 val_MSE=0.121054 bad=5/10
+2026-09-15 14:41:07,303 - INFO - [Epoch 015] train_loss=0.118890 val_MSE=0.097816 bad=6/10
+2026-09-15 14:41:51,969 - INFO - [Epoch 016] train_loss=0.117464 val_MSE=0.100264 bad=7/10
+2026-09-15 14:42:36,393 - INFO - [Epoch 017] train_loss=0.113062 val_MSE=0.096021 bad=8/10
+2026-09-15 14:43:21,082 - INFO - [Epoch 018] train_loss=0.113340 val_MSE=0.094727 bad=9/10
+2026-09-15 14:44:04,976 - INFO - [Epoch 019] train_loss=0.116168 val_MSE=0.106166 bad=10/10
+2026-09-15 14:44:04,979 - INFO - early stop at epoch 19
+2026-09-15 14:44:07,447 - INFO - TEST METRICS (original scale): {
+ "step1": {
+  "MSE": 25.5317325592041,
+  "RMSE": 5.052893483856957,
+  "MAE": 3.5974316596984863,
+  "R2": 0.9044991731643677
+ },
+ "overall": {
+  "MSE": 25.5317325592041,
+  "RMSE": 5.052893483856957,
+  "MAE": 3.5974316596984863,
+  "R2": 0.9044991731643677,
+  "MAPE": 181.5908039077917,
+  "SMAPE": 0.675780513067191
+ }
+}
+2026-09-15 14:44:07,501 - INFO - RUN COMPLETE

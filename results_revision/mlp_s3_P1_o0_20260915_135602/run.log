@@ -1,0 +1,56 @@
+2026-09-15 13:56:04,727 - INFO - REVISION RUN model=mlp seed=3 pred_len=1 offset_days=0
+2026-09-15 13:56:04,727 - INFO - batch_size=64, lr=0.001, epochs=100, patience=10
+2026-09-15 13:56:04,727 - INFO - Loading winf data from: /data1/home/wangwei/Huaneng_0915/QFAM_code/dataset/winf_fam1.csv
+2026-09-15 13:56:04,747 - INFO -   Raw rows: 8303
+2026-09-15 13:56:04,765 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-09-15 13:56:04,768 - INFO -   After clean & align: 8760 rows
+2026-09-15 13:56:04,778 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-09-15 13:56:04,793 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-09-15 13:56:04,796 - INFO -   Added 6 obs_lag features
+2026-09-15 13:56:04,796 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-09-15 13:56:04,815 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-09-15 13:56:04,825 - INFO - n=8110, train=[0,5677), val=[5677,6893), test=[6893,8110) (2021-11-08 15:00:00 .. 2022-01-01 07:00:00)
+2026-09-15 13:56:04,828 - INFO - samples: train=5581 val=1216 test=1206
+2026-09-15 13:56:06,152 - INFO - params: trainable=17,754,977 all=17,754,977
+2026-09-15 13:56:09,112 - INFO - [Epoch 001] train_loss=0.194010 val_MSE=0.117938 bad=0/10
+2026-09-15 13:56:10,257 - INFO - [Epoch 002] train_loss=0.157018 val_MSE=0.120265 bad=1/10
+2026-09-15 13:56:11,515 - INFO - [Epoch 003] train_loss=0.146586 val_MSE=0.120542 bad=2/10
+2026-09-15 13:56:12,781 - INFO - [Epoch 004] train_loss=0.140112 val_MSE=0.105322 bad=0/10
+2026-09-15 13:56:14,094 - INFO - [Epoch 005] train_loss=0.129845 val_MSE=0.102107 bad=0/10
+2026-09-15 13:56:15,486 - INFO - [Epoch 006] train_loss=0.121420 val_MSE=0.110779 bad=1/10
+2026-09-15 13:56:16,831 - INFO - [Epoch 007] train_loss=0.114464 val_MSE=0.101805 bad=0/10
+2026-09-15 13:56:18,140 - INFO - [Epoch 008] train_loss=0.113720 val_MSE=0.105478 bad=1/10
+2026-09-15 13:56:19,438 - INFO - [Epoch 009] train_loss=0.109756 val_MSE=0.108055 bad=2/10
+2026-09-15 13:56:20,720 - INFO - [Epoch 010] train_loss=0.105374 val_MSE=0.101625 bad=0/10
+2026-09-15 13:56:22,123 - INFO - [Epoch 011] train_loss=0.103299 val_MSE=0.099881 bad=0/10
+2026-09-15 13:56:23,400 - INFO - [Epoch 012] train_loss=0.102414 val_MSE=0.107150 bad=1/10
+2026-09-15 13:56:24,715 - INFO - [Epoch 013] train_loss=0.101362 val_MSE=0.112535 bad=2/10
+2026-09-15 13:56:26,096 - INFO - [Epoch 014] train_loss=0.100239 val_MSE=0.094821 bad=0/10
+2026-09-15 13:56:27,441 - INFO - [Epoch 015] train_loss=0.097173 val_MSE=0.101187 bad=1/10
+2026-09-15 13:56:28,755 - INFO - [Epoch 016] train_loss=0.097813 val_MSE=0.102104 bad=2/10
+2026-09-15 13:56:30,066 - INFO - [Epoch 017] train_loss=0.093792 val_MSE=0.101141 bad=3/10
+2026-09-15 13:56:31,319 - INFO - [Epoch 018] train_loss=0.095525 val_MSE=0.099715 bad=4/10
+2026-09-15 13:56:32,580 - INFO - [Epoch 019] train_loss=0.094502 val_MSE=0.105821 bad=5/10
+2026-09-15 13:56:33,900 - INFO - [Epoch 020] train_loss=0.093253 val_MSE=0.097101 bad=6/10
+2026-09-15 13:56:35,184 - INFO - [Epoch 021] train_loss=0.082772 val_MSE=0.110668 bad=7/10
+2026-09-15 13:56:36,500 - INFO - [Epoch 022] train_loss=0.080289 val_MSE=0.098414 bad=8/10
+2026-09-15 13:56:37,778 - INFO - [Epoch 023] train_loss=0.078970 val_MSE=0.100891 bad=9/10
+2026-09-15 13:56:39,045 - INFO - [Epoch 024] train_loss=0.077456 val_MSE=0.104944 bad=10/10
+2026-09-15 13:56:39,046 - INFO - early stop at epoch 24
+2026-09-15 13:56:39,278 - INFO - TEST METRICS (original scale): {
+ "step1": {
+  "MSE": 25.6787166595459,
+  "RMSE": 5.067417158626858,
+  "MAE": 3.5429112911224365,
+  "R2": 0.9036036729812622
+ },
+ "overall": {
+  "MSE": 25.6787166595459,
+  "RMSE": 5.067417158626858,
+  "MAE": 3.5429112911224365,
+  "R2": 0.9036036729812622,
+  "MAPE": 212.78847628578683,
+  "SMAPE": 0.6982163770885772
+ }
+}
+2026-09-15 13:56:39,314 - INFO - RUN COMPLETE

@@ -1,0 +1,68 @@
+2026-07-07 02:08:45,719 - INFO - STARTING TRAINING...
+2026-07-07 02:08:45,720 - INFO - Experiment ID: 20260707_020845
+2026-07-07 02:08:45,720 - INFO - csv_path=dataset/winf_fam1.csv, freq=1hour
+2026-07-07 02:08:45,720 - INFO - model_type=transformer, horizon=1, seq_len=96, pred_len=12
+2026-07-07 02:08:45,720 - INFO - epochs=100, patience=15, batch_size=64, lr=0.001
+2026-07-07 02:08:45,721 - INFO - d_model=128, n_heads=4, num_layers=1, dropout=0.1
+2026-07-07 02:08:45,721 - INFO - train_ratio=0.7, val_ratio=0.15, seed=42
+2026-07-07 02:08:45,721 - INFO - Loading winf data from: dataset/winf_fam1.csv
+2026-07-07 02:08:45,895 - INFO -   Raw rows: 8303
+2026-07-07 02:08:46,053 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-07-07 02:08:46,090 - INFO -   After clean & align: 8760 rows
+2026-07-07 02:08:46,136 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-07-07 02:08:46,206 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-07-07 02:08:46,237 - INFO -   Added 6 obs_lag features
+2026-07-07 02:08:46,238 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-07-07 02:08:46,389 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-07-07 02:08:46,684 - INFO - 模型参数量: total=211,020, trainable=211,020
+2026-07-07 02:10:22,394 - INFO - 💾 Saved best model at epoch 1 with val_MSE=0.709372
+2026-07-07 02:10:22,395 - INFO - [Epoch 001] train_loss=0.819399 | val_MSE=0.709372 val_RMSE=0.842242 val_MAE=0.634187 val_R2=0.4077 bad=0/15
+2026-07-07 02:11:16,073 - INFO - 💾 Saved best model at epoch 2 with val_MSE=0.632499
+2026-07-07 02:11:16,073 - INFO - [Epoch 002] train_loss=0.636236 | val_MSE=0.632499 val_RMSE=0.795298 val_MAE=0.565124 val_R2=0.4719 bad=0/15
+2026-07-07 02:11:29,406 - INFO - 💾 Saved best model at epoch 3 with val_MSE=0.624955
+2026-07-07 02:11:29,407 - INFO - [Epoch 003] train_loss=0.588673 | val_MSE=0.624955 val_RMSE=0.790541 val_MAE=0.567268 val_R2=0.4782 bad=0/15
+2026-07-07 02:12:13,127 - INFO - 💾 Saved best model at epoch 4 with val_MSE=0.600007
+2026-07-07 02:12:13,128 - INFO - [Epoch 004] train_loss=0.565130 | val_MSE=0.600007 val_RMSE=0.774601 val_MAE=0.557135 val_R2=0.4990 bad=0/15
+2026-07-07 02:13:41,015 - INFO - [Epoch 005] train_loss=0.552680 | val_MSE=0.623693 val_RMSE=0.789742 val_MAE=0.573112 val_R2=0.4793 bad=1/15
+2026-07-07 02:15:09,089 - INFO - [Epoch 006] train_loss=0.537630 | val_MSE=0.648275 val_RMSE=0.805155 val_MAE=0.586730 val_R2=0.4587 bad=2/15
+2026-07-07 02:16:36,737 - INFO - [Epoch 007] train_loss=0.534405 | val_MSE=0.635197 val_RMSE=0.796992 val_MAE=0.572134 val_R2=0.4697 bad=3/15
+2026-07-07 02:17:45,605 - INFO - [Epoch 008] train_loss=0.519042 | val_MSE=0.641344 val_RMSE=0.800839 val_MAE=0.576101 val_R2=0.4645 bad=4/15
+2026-07-07 02:17:58,543 - INFO - [Epoch 009] train_loss=0.512203 | val_MSE=0.693500 val_RMSE=0.832766 val_MAE=0.590797 val_R2=0.4210 bad=5/15
+2026-07-07 02:18:28,144 - INFO - 💾 Saved best model at epoch 10 with val_MSE=0.597441
+2026-07-07 02:18:28,145 - INFO - [Epoch 010] train_loss=0.498280 | val_MSE=0.597441 val_RMSE=0.772943 val_MAE=0.560561 val_R2=0.5012 bad=0/15
+2026-07-07 02:19:56,224 - INFO - [Epoch 011] train_loss=0.490595 | val_MSE=0.631001 val_RMSE=0.794356 val_MAE=0.591709 val_R2=0.4732 bad=1/15
+2026-07-07 02:21:24,456 - INFO - [Epoch 012] train_loss=0.476841 | val_MSE=0.651936 val_RMSE=0.807425 val_MAE=0.580114 val_R2=0.4557 bad=2/15
+2026-07-07 02:22:52,524 - INFO - 💾 Saved best model at epoch 13 with val_MSE=0.595024
+2026-07-07 02:22:52,524 - INFO - [Epoch 013] train_loss=0.471766 | val_MSE=0.595024 val_RMSE=0.771378 val_MAE=0.574257 val_R2=0.5032 bad=0/15
+2026-07-07 02:24:11,884 - INFO - [Epoch 014] train_loss=0.449417 | val_MSE=0.606039 val_RMSE=0.778485 val_MAE=0.576098 val_R2=0.4940 bad=1/15
+2026-07-07 02:24:24,654 - INFO - [Epoch 015] train_loss=0.429498 | val_MSE=0.649116 val_RMSE=0.805677 val_MAE=0.571074 val_R2=0.4580 bad=2/15
+2026-07-07 02:24:46,691 - INFO - [Epoch 016] train_loss=0.418443 | val_MSE=0.645003 val_RMSE=0.803121 val_MAE=0.578829 val_R2=0.4615 bad=3/15
+2026-07-07 02:26:13,109 - INFO - 💾 Saved best model at epoch 17 with val_MSE=0.557526
+2026-07-07 02:26:13,110 - INFO - [Epoch 017] train_loss=0.415050 | val_MSE=0.557526 val_RMSE=0.746676 val_MAE=0.557796 val_R2=0.5345 bad=0/15
+2026-07-07 02:27:41,815 - INFO - [Epoch 018] train_loss=0.402208 | val_MSE=0.589795 val_RMSE=0.767981 val_MAE=0.565993 val_R2=0.5076 bad=1/15
+2026-07-07 02:29:10,185 - INFO - [Epoch 019] train_loss=0.414252 | val_MSE=0.664262 val_RMSE=0.815022 val_MAE=0.594667 val_R2=0.4454 bad=2/15
+2026-07-07 02:29:45,394 - INFO - [Epoch 020] train_loss=0.380207 | val_MSE=0.603124 val_RMSE=0.776611 val_MAE=0.585349 val_R2=0.4964 bad=3/15
+2026-07-07 02:29:59,844 - INFO - [Epoch 021] train_loss=0.380500 | val_MSE=0.592949 val_RMSE=0.770032 val_MAE=0.569358 val_R2=0.5049 bad=4/15
+2026-07-07 02:31:04,817 - INFO - [Epoch 022] train_loss=0.377026 | val_MSE=0.632082 val_RMSE=0.795036 val_MAE=0.606901 val_R2=0.4723 bad=5/15
+2026-07-07 02:32:33,511 - INFO - [Epoch 023] train_loss=0.359504 | val_MSE=0.647622 val_RMSE=0.804750 val_MAE=0.611862 val_R2=0.4593 bad=6/15
+2026-07-07 02:34:03,422 - INFO - [Epoch 024] train_loss=0.337455 | val_MSE=0.788363 val_RMSE=0.887898 val_MAE=0.678842 val_R2=0.3418 bad=7/15
+2026-07-07 02:34:59,192 - INFO - [Epoch 025] train_loss=0.345450 | val_MSE=0.679809 val_RMSE=0.824505 val_MAE=0.629513 val_R2=0.4324 bad=8/15
+2026-07-07 02:35:12,740 - INFO - [Epoch 026] train_loss=0.347120 | val_MSE=0.616689 val_RMSE=0.785296 val_MAE=0.589665 val_R2=0.4851 bad=9/15
+2026-07-07 02:35:55,461 - INFO - [Epoch 027] train_loss=0.304392 | val_MSE=0.625059 val_RMSE=0.790606 val_MAE=0.598012 val_R2=0.4781 bad=10/15
+2026-07-07 02:37:23,584 - INFO - [Epoch 028] train_loss=0.290204 | val_MSE=0.685906 val_RMSE=0.828194 val_MAE=0.636072 val_R2=0.4273 bad=11/15
+2026-07-07 02:38:51,718 - INFO - [Epoch 029] train_loss=0.290714 | val_MSE=0.736690 val_RMSE=0.858306 val_MAE=0.663551 val_R2=0.3849 bad=12/15
+2026-07-07 02:40:19,698 - INFO - [Epoch 030] train_loss=0.286349 | val_MSE=0.640639 val_RMSE=0.800400 val_MAE=0.619657 val_R2=0.4651 bad=13/15
+2026-07-07 02:40:37,205 - INFO - [Epoch 031] train_loss=0.278672 | val_MSE=0.656334 val_RMSE=0.810145 val_MAE=0.627179 val_R2=0.4520 bad=14/15
+2026-07-07 02:40:52,125 - INFO - [Epoch 032] train_loss=0.261162 | val_MSE=0.679009 val_RMSE=0.824020 val_MAE=0.635447 val_R2=0.4331 bad=15/15
+2026-07-07 02:40:52,125 - INFO - 🛑 Early stopping at epoch=32, best_epoch=17, best_val_MSE=0.557526
+2026-07-07 02:40:52,128 - INFO - ✅ Training completed. Best epoch=17, best_val_MSE=0.557526
+2026-07-07 02:40:52,959 - INFO - ===== TEST METRICS (ORIGINAL SCALE) =====
+2026-07-07 02:40:52,960 - INFO - MSE: 171.817642
+2026-07-07 02:40:52,960 - INFO - MAPE: 210412.096089
+2026-07-07 02:40:52,960 - INFO - SMAPE: 92.075722
+2026-07-07 02:40:52,961 - INFO - RMSE: 13.107923
+2026-07-07 02:40:52,961 - INFO - MAE: 10.572722
+2026-07-07 02:40:52,961 - INFO - R2: 0.356458
+2026-07-07 02:40:53,221 - INFO - Saved predictions (long): results_opt/transformer/20260707_020845/test_pred_transformer_h1_L96_P12_winf_fam1_20260707_020845.csv
+2026-07-07 02:40:54,711 - INFO - 💾 Saved model & artifacts to: results_opt/transformer/20260707_020845
+2026-07-07 02:40:54,711 - INFO -   - Best checkpoint: results_opt/transformer/20260707_020845/transformer_h1_L96_P12_winf_fam1_20260707_020845_best.pt

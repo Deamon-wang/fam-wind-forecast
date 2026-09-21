@@ -1,0 +1,4145 @@
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 1 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 2 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 3 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 4 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 5 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 6 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 7 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 8 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 9 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 10 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 11 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 12 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 13 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 14 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 15 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 16 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 17 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 18 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 19 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 20 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 21 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 22 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 23 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 24 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 25 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 26 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 27 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+detail err HTTP Error 502: Bad Gateway
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 28 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 29 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 30 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 31 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 32 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 33 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 34 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 35 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 36 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 37 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 38 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 39 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 40 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 41 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 42 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 43 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 44 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 45 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 46 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 47 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 48 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 49 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 50 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 51 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 52 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 53 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 54 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 55 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 56 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 57 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 58 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 59 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 60 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 61 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 6
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 62 pending total: 78 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job 832E139B state=2
+job ADD0A4E4 state=2
+collect done; pending jobs: 3
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 63 pending total: 75 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+job ADD0A4E4 DONE (192 results, qpu 64287 ms)
+collect done; pending jobs: 0
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 6
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 64 pending total: 72 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 5
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 65 pending total: 71 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+job 81EAE667 state=2
+job 759230E4 state=2
+collect done; pending jobs: 2
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 66 pending total: 68 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+job 81EAE667 DONE (192 results, qpu 61906 ms)
+job 759230E4 DONE (192 results, qpu 62926 ms)
+collect done; pending jobs: 0
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 6
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 67 pending total: 66 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 4
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 68 pending total: 64 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job B0835314 state=2
+job 55C0F73C state=2
+collect done; pending jobs: 2
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 6
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 69 pending total: 62 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 5
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 70 pending total: 59 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0968E81F state=2
+job 6AA3BC04 state=2
+collect done; pending jobs: 4
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 71 pending total: 58 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0968E81F DONE (192 results, qpu 62419 ms)
+job 6AA3BC04 state=2
+collect done; pending jobs: 1
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 72 pending total: 55 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 6AA3BC04 DONE (192 results, qpu 60746 ms)
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 18
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 73 pending total: 54 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 15
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 74 pending total: 51 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 14
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 75 pending total: 50 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 11
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 76 pending total: 47 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 9
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 77 pending total: 45 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 7
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 78 pending total: 43 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 5
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 79 pending total: 41 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 4
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 80 pending total: 40 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 4
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 81 pending total: 40 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0FAE1B36 state=2
+job 24BE295D state=2
+collect done; pending jobs: 3
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 82 pending total: 39 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 8C0862C3 state=2
+job 24BE295D state=2
+collect done; pending jobs: 2
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 83 pending total: 38 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 8C0862C3 DONE (192 results, qpu 62261 ms)
+job 24BE295D state=2
+collect done; pending jobs: 1
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 18
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 84 pending total: 37 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 24BE295D DONE (192 results, qpu 62280 ms)
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 17
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 85 pending total: 35 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 16
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 86 pending total: 34 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 14
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 87 pending total: 32 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 14
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 88 pending total: 32 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 13
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 89 pending total: 31 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 12
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 90 pending total: 30 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 11
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 91 pending total: 29 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 11
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 92 pending total: 29 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 9
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 93 pending total: 27 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 9
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 94 pending total: 27 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 8
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 95 pending total: 26 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 7
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 96 pending total: 25 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 6
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 97 pending total: 24 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 6
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 98 pending total: 24 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 99 pending total: 22 ===
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+chunk 0: covered by an active/done job, skip
+chunk 192: covered by an active/done job, skip
+chunk 384: covered by an active/done job, skip
+chunk 576: covered by an active/done job, skip
+chunk 768: covered by an active/done job, skip
+chunk 960: covered by an active/done job, skip
+chunk 1152: covered by an active/done job, skip
+chunk 1344: covered by an active/done job, skip
+chunk 1536: covered by an active/done job, skip
+chunk 1728: covered by an active/done job, skip
+chunk 1920: covered by an active/done job, skip
+chunk 2112: covered by an active/done job, skip
+chunk 2304: covered by an active/done job, skip
+chunk 2496: covered by an active/done job, skip
+chunk 2688: covered by an active/done job, skip
+chunk 2880: covered by an active/done job, skip
+chunk 3072: covered by an active/done job, skip
+chunk 3264: covered by an active/done job, skip
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+collect done; pending jobs: 0
+job 0A8C7638 state=2
+job 2EE906C3 state=2
+collect done; pending jobs: 4
+job 630F3DF2 state=2
+job A273404F state=2
+collect done; pending jobs: 18
+=== round 100 pending total: 22 ===
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3highNM",
+ "mode": "high",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.758053063912315,
+  "mae": 3.8801183239975714,
+  "r2": 0.832958016643464
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.23898670114590606,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 87694545,
+  "qpu_time_ms": 389447
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3highNM.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand0NM",
+ "mode": "random0",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.8402943472476725,
+  "mae": 3.9636717279353144,
+  "r2": 0.8271335867881703
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.15650167229233516,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 90904462,
+  "qpu_time_ms": 374633
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand0NM.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand0MIT",
+ "mode": "random0",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.782588154005099,
+  "mae": 3.9155161845482107,
+  "r2": 0.8312308577355492
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.4302861387533047,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 316654728,
+  "qpu_time_ms": 1109671
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand0MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand1NM",
+ "mode": "random1",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.844198022426327,
+  "mae": 3.9610227827902995,
+  "r2": 0.8268546424119091
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.16938838204534512,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 94440113,
+  "qpu_time_ms": 386691
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand1NM.json
+collected z entries: 2688
+folds available: [1, 2, 3]
+coverage: 0.389
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (5): [0, 2, 4, 6, 8]
+patched hits/miss: [480, 0] [0, 480]
+{
+ "tag": "P3rand1MIT",
+ "mode": "random1",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 5,
+ "coverage": 0.3888888888888889,
+ "metrics_hw": {
+  "rmse": 5.296199994761744,
+  "mae": 4.591574640683207,
+  "r2": 0.8026485727050492
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 5.257939338684082,
+  "mae": 4.544614315032959,
+  "r2": 0.805489718914032
+ },
+ "mean_abs_dz_vs_sim": 0.45187000043552217,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 284196356,
+  "qpu_time_ms": 906767
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand1MIT.json
+collected z entries: 1152
+folds available: [1]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+metric origins (6): [0, 2, 4, 6, 8, 10]
+patched hits/miss: [576, 0] [0, 576]
+{
+ "tag": "P3rand2NM",
+ "mode": "random2",
+ "mitigate": false,
+ "folds": [
+  1
+ ],
+ "n_origins": 12,
+ "n_origin_sel": 6,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.8361703319303455,
+  "mae": 3.9534468778464618,
+  "r2": 0.8274280317047797
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.81918478012085,
+  "mae": 3.9321489334106445,
+  "r2": 0.8286381363868713
+ },
+ "mean_abs_dz_vs_sim": 0.1969119495939877,
+ "accounting": {
+  "jobs": 6,
+  "programs": 1152,
+  "shots_per_program": 1000,
+  "total_shots": 1152000,
+  "total_time_ms": 98014279,
+  "qpu_time_ms": 368351
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3rand2NM.json
+collected z entries: 0
+folds available: []
+coverage: 0.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+no covered origins selected
+P3_ABLATION_DONE

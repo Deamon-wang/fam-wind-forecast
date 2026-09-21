@@ -1,0 +1,223 @@
+collected z entries: 6912
+folds available: [1, 2, 3]
+coverage: 1.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P1high",
+ "mode": "high",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 1.0,
+ "metrics_hw": {
+  "rmse": 4.667325249452476,
+  "mae": 3.587093699187424,
+  "r2": 0.9123483407969251
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688438415527
+ },
+ "mean_abs_dz_vs_sim": 0.22285899051127142,
+ "accounting": {
+  "jobs": 36,
+  "programs": 6912,
+  "shots_per_program": 1000,
+  "total_shots": 6912000,
+  "total_time_ms": 49096751,
+  "qpu_time_ms": 2328418
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1high.json
+collected z entries: 6912
+folds available: [1, 2, 3]
+coverage: 1.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [576, 0] [576, 1152]
+{
+ "tag": "P1high6",
+ "mode": "high",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 1.0,
+ "metrics_hw": {
+  "rmse": 4.680982499636613,
+  "mae": 3.5988624485406735,
+  "r2": 0.9118346281294409
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688438415527
+ },
+ "mean_abs_dz_vs_sim": 0.22285899051127142,
+ "accounting": {
+  "jobs": 36,
+  "programs": 6912,
+  "shots_per_program": 1000,
+  "total_shots": 6912000,
+  "total_time_ms": 49096751,
+  "qpu_time_ms": 2328418
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1high6.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P1rand0MIT",
+ "mode": "random0",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.704390090947049,
+  "mae": 3.637156249281192,
+  "r2": 0.9109506688620717
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688438415527
+ },
+ "mean_abs_dz_vs_sim": 0.2632503765363956,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 197710072,
+  "qpu_time_ms": 1109564
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand0MIT.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P1rand1MIT",
+ "mode": "random1",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.70155483701617,
+  "mae": 3.6440991307407278,
+  "r2": 0.9110579734772871
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688438415527
+ },
+ "mean_abs_dz_vs_sim": 0.4434766237080381,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 229048939,
+  "qpu_time_ms": 1164321
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand1MIT.json
+collected z entries: 3456
+folds available: [1, 2, 3]
+coverage: 0.500
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P1rand2MIT",
+ "mode": "random2",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 0.5,
+ "metrics_hw": {
+  "rmse": 4.668257128620354,
+  "mae": 3.6037293919099462,
+  "r2": 0.912313336204327
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688438415527
+ },
+ "mean_abs_dz_vs_sim": 0.39677301383214203,
+ "accounting": {
+  "jobs": 18,
+  "programs": 3456,
+  "shots_per_program": 1000,
+  "total_shots": 3456000,
+  "total_time_ms": 251142676,
+  "qpu_time_ms": 1110378
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1rand2MIT.json
+collected z entries: 6912
+folds available: [1, 2, 3]
+coverage: 1.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P3high",
+ "mode": "high",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 1.0,
+ "metrics_hw": {
+  "rmse": 8.195158860474853,
+  "mae": 5.706100249139354,
+  "r2": 0.7668061399337045
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 8.154790878295898,
+  "mae": 5.684911251068115,
+  "r2": 0.7690978050231934
+ },
+ "mean_abs_dz_vs_sim": 0.4449052487952471,
+ "accounting": {
+  "jobs": 36,
+  "programs": 6912,
+  "shots_per_program": 1000,
+  "total_shots": 6912000,
+  "total_time_ms": 164932696,
+  "qpu_time_ms": 2325879
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P3high.json
+RESPLICE_MIT_DONE

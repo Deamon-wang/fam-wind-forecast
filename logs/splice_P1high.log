@@ -1,0 +1,37 @@
+collected z entries: 6912
+folds available: [1, 2, 3]
+coverage: 1.000
+Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+patched hits/miss: [1152, 0] [0, 1152]
+{
+ "tag": "P1high",
+ "mode": "high",
+ "mitigate": true,
+ "folds": [
+  1,
+  2,
+  3
+ ],
+ "n_origins": 12,
+ "coverage": 1.0,
+ "metrics_hw": {
+  "rmse": 4.638136863708496,
+  "mae": 3.551788091659546,
+  "r2": 0.9134412258863449
+ },
+ "metrics_sim_same_origins": {
+  "rmse": 4.674761772155762,
+  "mae": 3.597975492477417,
+  "r2": 0.9120688140392303
+ },
+ "mean_abs_dz_vs_sim": 0.8016489156504916,
+ "accounting": {
+  "jobs": 36,
+  "programs": 6912,
+  "shots_per_program": 1000,
+  "total_shots": 6912000,
+  "total_time_ms": 49096751,
+  "qpu_time_ms": 2328418
+ }
+}
+wrote /data1/home/wangwei/Huaneng_0915/QFAM_code/results_revision/hw_eval_P1high.json

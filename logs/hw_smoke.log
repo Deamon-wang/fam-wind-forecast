@@ -1,0 +1,28 @@
+ring: [40, 49, 58, 68, 59, 50]
+submitted 3 progs in 0.5s
+job_id: 579DBD96FEFE6968AAB6B206C69B73E1
+[0] JobStatus.WAITING
+[6] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[12] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[18] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[24] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[30] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[36] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[42] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[48] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[54] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[60] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[66] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[72] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[78] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[84] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[90] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[96] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[102] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[108] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+[114] <poll error: value is not array (which is 0) / value is not array (which is 0)>
+TIMEOUT waiting for job
+Traceback (most recent call last):
+  File "/data1/home/wangwei/Huaneng_0915/QFAM_code/revision/hw_smoke.py", line 100, in <module>
+    res = job.result()
+RuntimeError: value is not array (which is 0)

@@ -1,0 +1,67 @@
+2026-09-15 12:50:44,442 - INFO - REVISION RUN model=QFAM_R seed=42 pred_len=3 offset_days=0
+2026-09-15 12:50:44,442 - INFO - batch_size=128, lr=0.001, epochs=100, patience=10
+2026-09-15 12:50:44,442 - INFO - Loading winf data from: /data1/home/wangwei/Huaneng_0915/QFAM_code/dataset/winf_fam1.csv
+2026-09-15 12:50:44,464 - INFO -   Raw rows: 8303
+2026-09-15 12:50:44,483 - INFO -   Auto power_clip_high: 60 MW (data max=49.1 MW)
+2026-09-15 12:50:44,485 - INFO -   After clean & align: 8760 rows
+2026-09-15 12:50:44,493 - WARNING - Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
+2026-09-15 12:50:44,508 - INFO -   Flagged 50 stuck-sensor samples as NaN (0.6%)
+2026-09-15 12:50:44,511 - INFO -   Added 6 obs_lag features
+2026-09-15 12:50:44,511 - INFO -   Final columns (17): ['date', 'rain', 'power', 'ws10', 'wd10', 'ws100', 'wd100', 'temp_2m', 'dew_2m', 'p', 'rh_2m', 'obs_lag_1', 'obs_lag_2', 'obs_lag_3', 'obs_lag_6', 'obs_lag_12', 'obs_lag_24']
+2026-09-15 12:50:44,531 - INFO - Built 28 feature columns: base_exog=15, obs_lag=6, time=6, power=1
+2026-09-15 12:50:44,541 - INFO - n=8110, train=[0,5677), val=[5677,6893), test=[6893,8110) (2021-11-08 15:00:00 .. 2022-01-01 07:00:00)
+2026-09-15 12:50:44,545 - INFO - samples: train=5579 val=1214 test=1206
+2026-09-15 12:50:46,549 - INFO - params: trainable=652,679 all=652,703
+2026-09-15 12:53:21,412 - INFO - [Epoch 001] train_loss=0.862863 val_MSE=0.438870 bad=0/10
+2026-09-15 12:55:30,362 - INFO - [Epoch 002] train_loss=0.369372 val_MSE=0.320750 bad=0/10
+2026-09-15 12:56:41,789 - INFO - [Epoch 003] train_loss=0.294057 val_MSE=0.256304 bad=0/10
+2026-09-15 12:57:53,845 - INFO - [Epoch 004] train_loss=0.272738 val_MSE=0.247088 bad=0/10
+2026-09-15 12:59:06,281 - INFO - [Epoch 005] train_loss=0.263269 val_MSE=0.255900 bad=1/10
+2026-09-15 13:00:18,852 - INFO - [Epoch 006] train_loss=0.257264 val_MSE=0.237446 bad=0/10
+2026-09-15 13:01:31,671 - INFO - [Epoch 007] train_loss=0.248773 val_MSE=0.231349 bad=0/10
+2026-09-15 13:02:44,385 - INFO - [Epoch 008] train_loss=0.245088 val_MSE=0.240790 bad=1/10
+2026-09-15 13:03:57,051 - INFO - [Epoch 009] train_loss=0.236506 val_MSE=0.232969 bad=2/10
+2026-09-15 13:05:08,639 - INFO - [Epoch 010] train_loss=0.235222 val_MSE=0.229144 bad=0/10
+2026-09-15 13:06:21,465 - INFO - [Epoch 011] train_loss=0.229787 val_MSE=0.228836 bad=0/10
+2026-09-15 13:07:33,163 - INFO - [Epoch 012] train_loss=0.232665 val_MSE=0.229189 bad=1/10
+2026-09-15 13:08:47,201 - INFO - [Epoch 013] train_loss=0.222212 val_MSE=0.225004 bad=0/10
+2026-09-15 13:09:58,953 - INFO - [Epoch 014] train_loss=0.218441 val_MSE=0.232016 bad=1/10
+2026-09-15 13:11:12,282 - INFO - [Epoch 015] train_loss=0.214759 val_MSE=0.237719 bad=2/10
+2026-09-15 13:12:25,218 - INFO - [Epoch 016] train_loss=0.209364 val_MSE=0.245135 bad=3/10
+2026-09-15 13:13:37,883 - INFO - [Epoch 017] train_loss=0.205553 val_MSE=0.240255 bad=4/10
+2026-09-15 13:14:50,995 - INFO - [Epoch 018] train_loss=0.200095 val_MSE=0.233320 bad=5/10
+2026-09-15 13:16:03,577 - INFO - [Epoch 019] train_loss=0.198215 val_MSE=0.234141 bad=6/10
+2026-09-15 13:17:16,754 - INFO - [Epoch 020] train_loss=0.188943 val_MSE=0.253036 bad=7/10
+2026-09-15 13:18:28,514 - INFO - [Epoch 021] train_loss=0.188306 val_MSE=0.237158 bad=8/10
+2026-09-15 13:19:41,535 - INFO - [Epoch 022] train_loss=0.179132 val_MSE=0.241184 bad=9/10
+2026-09-15 13:20:54,633 - INFO - [Epoch 023] train_loss=0.175034 val_MSE=0.246872 bad=10/10
+2026-09-15 13:20:54,633 - INFO - early stop at epoch 23
+2026-09-15 13:20:58,636 - INFO - TEST METRICS (original scale): {
+ "step1": {
+  "MSE": 26.823097229003906,
+  "RMSE": 5.17910197128845,
+  "MAE": 3.816694498062134,
+  "R2": 0.8993077278137207
+ },
+ "step2": {
+  "MSE": 57.55602264404297,
+  "RMSE": 7.586568568466443,
+  "MAE": 5.7473039627075195,
+  "R2": 0.7841314673423767
+ },
+ "step3": {
+  "MSE": 87.82058715820312,
+  "RMSE": 9.371263903988785,
+  "MAE": 7.257035255432129,
+  "R2": 0.6707882881164551
+ },
+ "overall": {
+  "MSE": 57.39990234375,
+  "RMSE": 7.576272325078475,
+  "MAE": 5.607011795043945,
+  "R2": 0.7846891283988953,
+  "MAPE": 588.4440725524793,
+  "SMAPE": 0.7863135333369178
+ }
+}
+2026-09-15 13:20:58,727 - INFO - RUN COMPLETE
