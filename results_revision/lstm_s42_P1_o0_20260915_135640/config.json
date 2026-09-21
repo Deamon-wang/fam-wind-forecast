@@ -1,0 +1,72 @@
+{
+ "model_type": "lstm",
+ "seed": 42,
+ "pred_len": 1,
+ "horizon": 1,
+ "seq_len": 96,
+ "offset_days": 0,
+ "batch_size": 64,
+ "lr": 0.001,
+ "epochs": 100,
+ "patience": 10,
+ "optimizer": "adam",
+ "wd": 0.0001,
+ "scheduler": "plateau(0.5,5)",
+ "loss": "MSE",
+ "clip": 1.0,
+ "feature_cols": [
+  "temp_2m",
+  "rh_2m",
+  "dew_2m",
+  "ws10",
+  "ws100",
+  "wd10_sin",
+  "wd10_cos",
+  "wd100_sin",
+  "wd100_cos",
+  "ws10_sq",
+  "ws10_cb",
+  "ws100_sq",
+  "ws100_cb",
+  "shear_100_10",
+  "wd_diff",
+  "obs_lag_1",
+  "obs_lag_2",
+  "obs_lag_3",
+  "obs_lag_6",
+  "obs_lag_12",
+  "obs_lag_24",
+  "hour_sin",
+  "hour_cos",
+  "dow_sin",
+  "dow_cos",
+  "doy_sin",
+  "doy_cos",
+  "power"
+ ],
+ "test_window": [
+  "2021-11-08 15:00:00",
+  "2022-01-01 07:00:00"
+ ],
+ "n_test_samples": 1206,
+ "params_total": 64769,
+ "params_trainable": 64769,
+ "best_epoch": 7,
+ "best_val_mse": 0.09977269172668457,
+ "metrics": {
+  "step1": {
+   "MSE": 27.891746520996094,
+   "RMSE": 5.281263723863455,
+   "MAE": 3.8168978691101074,
+   "R2": 0.8952960968017578
+  },
+  "overall": {
+   "MSE": 27.891746520996094,
+   "RMSE": 5.281263723863455,
+   "MAE": 3.8168978691101074,
+   "R2": 0.8952960968017578,
+   "MAPE": 282.7597979903594,
+   "SMAPE": 0.7034750084916683
+  }
+ }
+}

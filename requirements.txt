@@ -1,0 +1,33 @@
+# Core ML and Data Processing
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+
+# Deep Learning
+torch==2.10.0+cu126
+torchaudio==2.10.0+cu126
+torchvision==0.25.0+cu126
+
+# Visualization and Plotting
+matplotlib==3.10.8
+
+# Quantum Computing
+pyqpanda3==0.3.2
+pyvqnet==2.17.2
+
+# Utilities
+hjson==3.1.0
+joblib==1.5.3
+packaging==26.0
+
+# Development Tools
+mypy==1.19.1
+mypy_extensions==1.1.0
+typing_extensions==4.15.0
+typing-inspection==0.4.2
+
+# Optional dependencies (if needed)
+# cuda-bindings==12.9.4
+# cuda-pathfinder==1.2.2
+# rustworkx==0.17.1
