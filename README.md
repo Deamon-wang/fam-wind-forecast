@@ -92,6 +92,19 @@ The script writes the torch, PyVQNet and pyqpanda3 metrics and the maximum
 readout difference. On the development CPU, 1,921 windows take about 0.7 s
 with PyVQNet and 5 s with pyqpanda3.
 
+## Readout controls
+
+The paper's central control replaces the 12 quantum expectations by zero, their
+test-set mean or a shuffled vector, without retraining:
+
+```bash
+python -m qfam_v2.readout_controls   --checkpoint results/external/qfam_s42/best_weights.pt   --external_csv dataset/winf_fam1.csv   --out results/readout_controls.json
+```
+
+`results/readout_controls.json` reports RMSE for the trained, zero, mean and
+shuffled readouts. The zero-readout control is the one that tests whether the
+quantum features are necessary.
+
 ## Hardware
 
 The six-qubit circuit is exported with `qfam_v2/qpanda3_circuit.py`. The
