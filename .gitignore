@@ -1,4 +1,12 @@
+﻿dataset/winf_fam1.csv
+results/
+*.pt
+*.pth
+*.ckpt
 __pycache__/
-*.pyc
+*.py[cod]
 .idea/
-dataset/
+.vscode/
+.env
+.DS_Store
+hardware/*.json

@@ -1,0 +1,22 @@
+﻿cff-version: 1.2.0
+message: "If you use this code, please cite the QFAM manuscript."
+title: "QFAM: a parameter-efficient quantum correction to a flow-attention Mamba forecaster"
+authors:
+  - family-names: "Zhang"
+    given-names: "Bo"
+  - family-names: "Wang"
+    given-names: "Wei"
+  - family-names: "Lu"
+    given-names: "Lixuan"
+  - family-names: "Xia"
+    given-names: "Rui"
+  - family-names: "Xu"
+    given-names: "Bo"
+  - family-names: "Guan"
+    given-names: "Xuanyu"
+  - family-names: "Hong"
+    given-names: "Yawen"
+  - family-names: "Li"
+    given-names: "Lei"
+year: 2026
+license: MIT

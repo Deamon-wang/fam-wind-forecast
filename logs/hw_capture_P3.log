@@ -1,8 +1,0 @@
-pred_len 3 seq_len 96
-Sensor stuck detected: 50h from 2021-05-01 11:00:00 to 2021-05-03 12:00:00, obs_true≈2.30 m/s, ws100_std=2.82 m/s
-n_test samples: 1206
-origin sample indices: [0, 110, 219, 329, 438, 548, 657, 767, 876, 986, 1095, 1205]
-x range: [-2.576, 0.888]
-origin dates: 2021-11-04 15:00:00 .. 2021-12-27 20:00:00
-sim RMSE on origins: 8.155 MW
-wrote results_revision/hw_capture_P3.npz
