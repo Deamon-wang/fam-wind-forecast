@@ -2,7 +2,5 @@
 H1,QFAM,calibrated_ring,none,Z/X,3,1921,1000,planned
 H2,QFAM,calibrated_ring,M3,Z/X,3,1921,1000,planned
 H3,QFAM,calibrated_ring,M3+ZNE,Z/X,3,1921,1000,planned_primary
-H4,QFAM_random,calibrated_ring,M3+ZNE,Z/X,3,1921,1000,planned
-H5,QFAM_Zonly,calibrated_ring,M3+ZNE,Z,3,1921,1000,planned
-H6,QFAM,random_ring,M3+ZNE,Z/X,3,192,1000,planned
-H7,QFAM,calibrated_ring,none,Z/X,3,192,1000,planned
+H4,QFAM,random_ring,M3+ZNE,Z/X,3,192,1000,planned
+H5,QFAM,calibrated_ring,none,Z/X,3,192,1000,planned

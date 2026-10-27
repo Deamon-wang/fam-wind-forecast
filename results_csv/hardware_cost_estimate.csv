@@ -1,7 +1,7 @@
 ﻿scope,circuits,qpu_hours_1000,qpu_hours_4000,notes
 QFAM H3 3 seeds,5763,0.57,2.27,full 1921 origins
-H3+H4+H5 3 seeds,17289,1.70,6.81,main + controls
-H1-H5 3 seeds,28815,2.84,11.35,all arms
+H1-H3 3 seeds,17289,1.70,6.81,all arms
 +3h horizon,3384,0.33,1.33,1128 windows
 mapping/mitigation factorial,5000,0.50,2.00,approx 16 cells x 192 origins x 3 seeds
-recommended budget,20673,2.04,8.15,paper minimum; 50% contingency
+recommended minimum,9147,0.90,3.60,H3 + 3h
+full comparison,20673,2.04,8.15,H1-H3 + 3h; 50% contingency
