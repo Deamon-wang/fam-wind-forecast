@@ -114,12 +114,19 @@ manuscript is 0.3545 s per 1,000-shot program, about 0.57 h per three-seed
 QFAM run and about 2.04 h for the full comparison at 1,000 shots. Queueing and
 calibration are not included.
 
+## Result tables
+
+Per-seed comparison, ablation, readout-control, paired-statistics and backend
+parity tables are in `results_csv/`. They are aggregate metrics only; the raw
+`winf_fam1` observations are not included.
+
 ## Repository layout
 
 ```
 qfam_v2/          training, data, models, circuit export, backend replay
 revision/         minimal Mamba/positional-encoding dependency
 dataset/          Location1.csv (public); winf_fam1.csv is not included
+results_csv/      per-seed result and ablation tables
 scripts/          runnable examples
 hardware/         hardware notes (no credentials)
 ```

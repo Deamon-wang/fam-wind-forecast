@@ -1,0 +1,16 @@
+readout,seed,RMSE_MW
+trained,42,6.056717
+trained,123,5.857428
+trained,2024,5.899852
+zero,42,6.002960
+zero,123,5.839394
+zero,2024,5.904075
+mean,42,6.053983
+mean,123,5.850458
+mean,2024,5.909585
+shuffled,42,6.054723
+shuffled,123,5.852187
+shuffled,2024,5.909629
+random_angles,42,6.062372
+random_angles,123,5.865939
+random_angles,2024,5.922385

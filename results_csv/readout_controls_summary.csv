@@ -1,0 +1,6 @@
+readout,RMSE_mean,RMSE_std,n_seeds
+trained,5.937999,0.104978,3
+zero,5.915476,0.082377,3
+mean,5.938009,0.104697,3
+shuffled,5.938846,0.104381,3
+random_angles,5.950232,0.101134,3
