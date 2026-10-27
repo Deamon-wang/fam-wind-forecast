@@ -1,9 +1,8 @@
-"""Classical and quantum Flow-Attention Mamba models for the aligned data.
+"""QFAM: FAM h60 plus one six-qubit correction per forecast.
 
-The quantum projector is a residual adapter: a classical linear projection plus
-a zero-initialised quantum correction.  The circuit is built with the PyVQNet
-torch VQC API (QMachine / RY / RX / RZ / CNOT / MeasureAll), which is the same
-circuit family that can be exported to pyqpanda3 for hardware runs.
+The only quantum model kept in this release is ``fam_qh60lat``.  The classical
+reference is ``fam`` (h64); ``fam_h60`` is the no-circuit head control.  LSTM,
+CNN, Transformer and DLinear are accuracy baselines.
 """
 from __future__ import annotations
 
@@ -194,170 +193,14 @@ class ClassicalProjector(nn.Module):
         return self.proj(x)
 
 
-class ClassicalResidualProjector(nn.Module):
-    """Parameter-matched classical control for the quantum residual."""
-
-    def __init__(self, dim, hidden=12):
-        super().__init__()
-        self.base = nn.Linear(dim, dim)
-        self.pre = nn.Linear(dim, hidden, bias=False)
-        self.ln = nn.LayerNorm(hidden)
-        self.mlp = nn.Sequential(nn.Linear(hidden, 2 * hidden), nn.GELU(),
-                                 nn.Linear(2 * hidden, dim))
-        nn.init.zeros_(self.mlp[-1].weight)
-        nn.init.zeros_(self.mlp[-1].bias)
-        self.mlp[-1]._skip_init = True
-
-    def forward(self, x):
-        z = torch.tanh(self.ln(self.pre(x)))
-        return self.base(x) + self.mlp(z)
-
-
-class QuantumResidualProjector(nn.Module):
-    """classical linear projection + zero-init quantum correction."""
-
-    def __init__(self, dim, n_qubits=6, layers=2, measure_x=True,
-                 random_angles=False, backend="torch", low_rank=0, use_gate=False,
-                 init_scale=0.0):
-        super().__init__()
-        self.base = nn.Linear(dim, dim)
-        self.pre = nn.Linear(dim, n_qubits, bias=False)
-        self.ln = nn.LayerNorm(n_qubits)
-        self.scale = nn.Parameter(torch.ones(n_qubits))
-        self.q = (TorchVQCv2(n_qubits, layers, measure_x) if backend == "torch"
-                  else PyVQNetCircuit(n_qubits, layers, measure_x))
-        n_out = n_qubits * (2 if measure_x else 1)
-        self.use_gate = use_gate
-        self.gate_param = nn.Parameter(torch.tensor(-4.0)) if use_gate else None
-        if low_rank > 0:
-            self.post_down = nn.Linear(n_out + n_qubits, low_rank, bias=False)
-            self.post_up = nn.Linear(low_rank, dim, bias=False)
-            nn.init.zeros_(self.post_up.weight)
-            self.post_up._skip_init = True
-            self.post = None
-        else:
-            self.post = nn.Linear(n_out + n_qubits, dim)
-            if init_scale > 0:
-                nn.init.normal_(self.post.weight, 0.0, init_scale)
-            else:
-                nn.init.zeros_(self.post.weight)
-            nn.init.zeros_(self.post.bias)
-            self.post._skip_init = True
-            self.post_down = None; self.post_up = None
-        if random_angles:
-            for p in self.q.parameters():
-                p.requires_grad_(False)
-        self.last_z_std = None
-
-    def forward(self, x):
-        z = self.ln(self.pre(x))
-        self.last_z_std = z.std(dim=0).mean()
-        z = torch.tanh(z) * self.scale
-        q = self.q(z * math.pi)
-        q = q.to(device=z.device, dtype=z.dtype)
-        feat = torch.cat([q, z], dim=-1)
-        if self.post is not None:
-            corr = self.post(feat)
-        else:
-            corr = self.post_up(self.post_down(feat))
-        if self.use_gate:
-            corr = torch.sigmoid(self.gate_param) * corr
-        return self.base(x) + corr
-
-
-class QuantumBottleneckProjector(nn.Module):
-    """Original HQP-style replacement: no classical skip."""
-
-    def __init__(self, dim, n_qubits=6, layers=2, measure_x=True, backend="torch"):
-        super().__init__()
-        self.pre = nn.Linear(dim, n_qubits, bias=False)
-        self.ln = nn.LayerNorm(n_qubits)
-        self.scale = nn.Parameter(torch.ones(n_qubits))
-        self.q = (TorchVQCv2(n_qubits, layers, measure_x) if backend == "torch"
-                  else PyVQNetCircuit(n_qubits, layers, measure_x))
-        n_out = n_qubits * (2 if measure_x else 1)
-        self.post = nn.Linear(n_out + n_qubits, dim)
-        self.last_z_std = None
-
-    def forward(self, x):
-        z = self.ln(self.pre(x))
-        self.last_z_std = z.std(dim=0).mean()
-        z = torch.tanh(z) * self.scale
-        q = self.q(z * math.pi)
-        q = q.to(device=z.device, dtype=z.dtype)
-        return self.post(torch.cat([q, z], dim=-1))
-
-
 def make_projector(variant, dim, n_qubits=6, layers=2, measure_x=True, backend="torch", low_rank=0, use_gate=False):
-    if variant == "classical":
-        return ClassicalProjector(dim)
-    if variant == "quantum_res":
-        return QuantumResidualProjector(dim, n_qubits, layers, measure_x, backend=backend,
-                                        low_rank=low_rank, use_gate=use_gate)
-    if variant == "quantum_rand":
-        return QuantumResidualProjector(dim, n_qubits, layers, measure_x,
-                                        random_angles=True, backend=backend,
-                                        low_rank=low_rank, use_gate=use_gate)
-    if variant == "quantum_bot":
-        return QuantumBottleneckProjector(dim, n_qubits, layers, measure_x, backend=backend)
-    if variant == "classical_res":
-        return ClassicalResidualProjector(dim)
-    raise ValueError(variant)
+    if variant != "classical":
+        raise ValueError("Only the classical projector is kept in the QFAM release")
+    return ClassicalProjector(dim)
 
 
 
 
-class QuantumHead(nn.Module):
-    """Quantum residual correction on the current-observation vector.
-
-    A 6-angle encoding of the last observed feature vector is passed through
-    the same VQC family and mapped to a scalar correction of the forecast.
-    The correction is zero-initialised, so the model starts as the classical
-    FAM head.
-    """
-
-    def __init__(self, input_dim, n_qubits=6, layers=2, backend="torch",
-                 random_angles=False, init_scale=0.0):
-        super().__init__()
-        self.pre = nn.Linear(input_dim, n_qubits, bias=False)
-        self.ln = nn.LayerNorm(n_qubits)
-        self.scale = nn.Parameter(torch.ones(n_qubits))
-        self.q = (TorchVQCv2(n_qubits, layers, True) if backend == "torch"
-                  else PyVQNetCircuit(n_qubits, layers, True))
-        self.post = nn.Linear(3 * n_qubits, 1)
-        if init_scale > 0:
-            nn.init.normal_(self.post.weight, 0.0, init_scale)
-        else:
-            nn.init.zeros_(self.post.weight)
-        nn.init.zeros_(self.post.bias)
-        self.post._skip_init = True
-        if random_angles:
-            for p in self.q.parameters():
-                p.requires_grad_(False)
-
-    def forward(self, last):
-        z = torch.tanh(self.ln(self.pre(last))) * self.scale
-        q = self.q(z * math.pi).to(device=z.device, dtype=z.dtype)
-        return self.post(torch.cat([q, z], dim=-1))
-
-
-class ClassicalHeadResidual(nn.Module):
-    def __init__(self, input_dim, hidden=12):
-        super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(input_dim, hidden), nn.GELU(),
-            nn.Linear(hidden, 2 * hidden), nn.GELU(),
-            nn.Linear(2 * hidden, 1))
-        nn.init.zeros_(self.net[-1].weight); nn.init.zeros_(self.net[-1].bias)
-        self.net[-1]._skip_init = True
-
-    def forward(self, last):
-        return self.net(last)
-
-
-# ----------------------------------------------------------------------
-# Flow-Attention + Mamba block
-# ----------------------------------------------------------------------
 class FlowBlock(nn.Module):
     def __init__(self, dim, heads=8, dropout=0.1, projector="classical",
                  n_qubits=6, q_layers=2, measure_x=True, qbackend="torch",
@@ -407,25 +250,11 @@ class FlowBlock(nn.Module):
         return self.norm_out(g * x_att + (1 - g) * x_m + x)
 
 
-class QuantumPredHead(nn.Module):
-    """Replace FAM's 128->64->1 head with a quantum temporal readout."""
-
-    def __init__(self, in_dim, horizon=1, qbackend="torch", n_qubits=6, layers=2):
-        super().__init__()
-        self.pre = nn.Linear(in_dim, n_qubits, bias=False)
-        self.lin = nn.Linear(in_dim, horizon)
-        self.qhead = QuantumHeadLatent(n_qubits, n_qubits, layers, qbackend)
-
-    def forward(self, h):
-        return self.lin(h) + self.qhead(self.pre(h))
-
-
 class FAMv2(nn.Module):
     def __init__(self, input_dim, dim=64, horizon=1, layers=1, heads=8,
                  dropout=0.1, projector="classical", n_qubits=6, q_layers=2,
                  measure_x=True, qbackend="torch", q_low_rank=0, q_gate=False,
-                 qhead="none", phys_idx=(3, 4, 7, 8, 0, 23), head_hidden=None,
-                 trim=False, head_type="mlp"):
+                 head_hidden=None, trim=False):
         super().__init__()
         self.horizon = horizon
         self.inp = nn.Linear(input_dim, dim, bias=not trim)
@@ -439,27 +268,9 @@ class FAMv2(nn.Module):
             for k in [1, 3, 5, 7]])
         self.scale_w = nn.Parameter(torch.ones(4) / 4)
         hh = int(head_hidden) if head_hidden else dim
-        if head_type == "quantum":
-            self.head = QuantumPredHead(2 * dim, horizon, qbackend)
-        elif head_type == "quantum12":
-            self.head = QuantumPredHead(2 * dim, horizon, qbackend, n_qubits=12)
-        elif head_type == "quantum16":
-            self.head = QuantumPredHead(2 * dim, horizon, qbackend, n_qubits=16)
-        else:
-            self.head = nn.Sequential(
-                nn.Linear(2 * dim, hh, bias=not trim), nn.GELU(), nn.Dropout(dropout),
-                nn.Linear(hh, horizon, bias=not trim))
-        self.phys_idx = tuple(phys_idx)
-        if qhead == "quantum":
-            self.qhead = QuantumHead(input_dim, 6, 2, qbackend)
-        elif qhead == "phys":
-            self.qhead = QuantumHead(len(self.phys_idx), 6, 2, qbackend)
-        elif qhead == "random":
-            self.qhead = QuantumHead(input_dim, 6, 2, qbackend, random_angles=True)
-        elif qhead == "classical":
-            self.qhead = ClassicalHeadResidual(input_dim)
-        else:
-            self.qhead = None
+        self.head = nn.Sequential(
+            nn.Linear(2 * dim, hh, bias=not trim), nn.GELU(), nn.Dropout(dropout),
+            nn.Linear(hh, horizon, bias=not trim))
         for m in self.modules():
             if isinstance(m, nn.Linear):
                 if getattr(m, '_skip_init', False):
@@ -478,250 +289,9 @@ class FAMv2(nn.Module):
         xm = sum(c(xt) * sw[i] for i, c in enumerate(self.convs))
         avg = xm.mean(-1)
         mx = xm.max(-1).values
-        y = self.head(torch.cat([avg, mx], -1))
-        if self.qhead is not None:
-            last = x0[:, -1, :]
-            if (hasattr(self.qhead, "pre")
-                    and self.qhead.pre.in_features != last.shape[-1]):
-                last = last[:, list(self.phys_idx)]
-            y = y + self.qhead(last)
-        return y
+        return self.head(torch.cat([avg, mx], -1))
 
 
-
-
-class QDLinear(nn.Module):
-    """DLinear plus a zero-initialised quantum residual head.
-
-    The linear branch is the strongest overall model in the aligned benchmark;
-    the quantum head learns a small nonlinear correction from the current
-    physical state.  With the residual initialised at zero the model starts as
-    DLinear and can only improve (or be ignored) during training.
-    """
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, dim=64, qbackend="torch",
-                 qhead="quantum", phys_idx=(3, 4, 7, 8, 0, 23)):
-        super().__init__()
-        self.base = DLinear(input_dim, seq_len, horizon)
-        self.phys_idx = tuple(phys_idx)
-        if qhead == "quantum":
-            self.qhead = QuantumHead(len(self.phys_idx), 6, 2, qbackend)
-        elif qhead == "random":
-            self.qhead = QuantumHead(len(self.phys_idx), 6, 2, qbackend,
-                                     random_angles=True)
-        elif qhead == "classical":
-            self.qhead = ClassicalHeadResidual(len(self.phys_idx))
-        else:
-            self.qhead = None
-
-    def forward(self, x):
-        y = self.base(x)
-        if self.qhead is not None:
-            y = y + self.qhead(x[:, -1, list(self.phys_idx)])
-        return y
-
-
-
-
-class DLinearMLP(nn.Module):
-    """DLinear plus a classical nonlinear residual on window summaries."""
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, hidden=32):
-        super().__init__()
-        self.base = DLinear(input_dim, seq_len, horizon)
-        self.net = nn.Sequential(
-            nn.Linear(3 * input_dim, hidden), nn.GELU(),
-            nn.Linear(hidden, horizon))
-        nn.init.zeros_(self.net[-1].weight)
-        nn.init.zeros_(self.net[-1].bias)
-        self.net[-1]._skip_init = True
-
-    def forward(self, x):
-        s = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
-        return self.base(x) + self.net(s)
-
-
-class DLinearQSummary(nn.Module):
-    """Quantum counterpart of DLinearMLP: VQC on the same summary vector."""
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, qbackend="torch",
-                 n_qubits=6, layers=2):
-        super().__init__()
-        self.base = DLinear(input_dim, seq_len, horizon)
-        self.qhead = QuantumHead(3 * input_dim, n_qubits, layers, qbackend)
-
-    def forward(self, x):
-        s = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
-        return self.base(x) + self.qhead(s)
-
-
-
-
-class QuantumHeadNoPre(nn.Module):
-    """Direct angle encoding of a small feature vector into the VQC."""
-
-    def __init__(self, n_features=6, n_qubits=6, layers=1, backend="torch"):
-        super().__init__()
-        self.q = (TorchVQCv2(n_qubits, layers, True) if backend == "torch"
-                  else PyVQNetCircuit(n_qubits, layers, True))
-        self.post = nn.Linear(2 * n_qubits, 1)
-        nn.init.zeros_(self.post.weight); nn.init.zeros_(self.post.bias)
-        self.post._skip_init = True
-
-    def forward(self, x):
-        q = self.q(torch.tanh(x) * math.pi).to(device=x.device, dtype=x.dtype)
-        return self.post(q)
-
-
-class QDLinearLite(nn.Module):
-    """Quantumised DLinear with fewer parameters than the full DLinear.
-
-    The per-channel trend/season projections are kept (192 parameters).  Their
-    six selected outputs are mixed by a linear skip (6) plus a 6-qubit,
-    one-layer VQC readout (18 angles + 13 readout), total 229 parameters versus
-    231 for DLinear.
-    """
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, qbackend="torch",
-                 idx=(3, 4, 7, 8, 0, 23), qlayer=1, bias=False):
-        super().__init__()
-        self.idx = tuple(idx)
-        self.trend = nn.Linear(seq_len, horizon, bias=False)
-        self.season = nn.Linear(seq_len, horizon, bias=False)
-        self.skip = nn.Linear(len(self.idx), horizon, bias=bias)
-        self.qhead = QuantumHeadNoPre(len(self.idx), len(self.idx), qlayer, qbackend)
-
-    def forward(self, x):
-        xt = x.transpose(1, 2)
-        pad = 12
-        trend = F.avg_pool1d(F.pad(xt, (pad, pad), mode="replicate"), 25, stride=1)
-        season = xt - trend
-        f = (self.trend(trend) + self.season(season))[:, list(self.idx), :]  # [B,k,H]
-        f = f.squeeze(-1)
-        return self.skip(f) + self.qhead(f)
-
-
-class QDLinearLiteProj(nn.Module):
-    """Quantumised DLinear with a fixed 36->6 projection.
-
-    The projection has no trainable parameters: ``group`` averages six
-    contiguous channels, ``rand`` uses a fixed orthogonal random projection.
-    The parameter count is identical to QDLinearLite (229).
-    """
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, qbackend="torch",
-                 mode="group", seed=0, qlayer=1):
-        super().__init__()
-        self.trend = nn.Linear(seq_len, horizon, bias=False)
-        self.season = nn.Linear(seq_len, horizon, bias=False)
-        if mode == "group":
-            p = torch.zeros(input_dim, 6)
-            g = max(1, input_dim // 6)
-            for j in range(6):
-                lo, hi = j * g, min((j + 1) * g, input_dim)
-                p[lo:hi, j] = 1.0 / max(1, hi - lo)
-        elif mode == "rand":
-            gen = torch.Generator().manual_seed(seed)
-            q, _ = torch.linalg.qr(torch.randn(input_dim, 6, generator=gen))
-            p = q[:, :6]
-        else:
-            raise ValueError(mode)
-        self.register_buffer("proj", p)
-        self.skip = nn.Linear(6, horizon, bias=False)
-        self.qhead = QuantumHeadNoPre(6, 6, qlayer, qbackend)
-
-    def forward(self, x):
-        xt = x.transpose(1, 2)
-        pad = 12
-        trend = F.avg_pool1d(F.pad(xt, (pad, pad), mode="replicate"), 25, stride=1)
-        season = xt - trend
-        f = (self.trend(trend) + self.season(season))[:, :, 0]  # [B,F]
-        f = f @ self.proj
-        return self.skip(f) + self.qhead(f)
-
-
-class QDLinearClassical(nn.Module):
-    """Parameter-matched classical control for QDLinearLite.
-
-    Same trend/season trunk and six selected channels; the quantum head is
-    replaced by a quadratic classical head with 31 parameters, so the total is
-    229 (same as QDLinearLite).
-    """
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, idx=(23, 4, 7, 3, 16, 17)):
-        super().__init__()
-        self.idx = tuple(idx)
-        self.trend = nn.Linear(seq_len, horizon, bias=False)
-        self.season = nn.Linear(seq_len, horizon, bias=False)
-        self.skip = nn.Linear(len(self.idx), horizon, bias=False)
-        self.lin = nn.Linear(len(self.idx), horizon)
-        self.sq = nn.Linear(len(self.idx), horizon, bias=False)
-        k = len(self.idx)
-        pairs = [(i, j) for i in range(k) for j in range(i + 1, k)]
-        self.pairs = pairs
-        self.inter = nn.Linear(len(pairs), horizon, bias=False)
-        self.extra = nn.Parameter(torch.zeros(2))
-
-    def forward(self, x):
-        xt = x.transpose(1, 2)
-        pad = 12
-        trend = F.avg_pool1d(F.pad(xt, (pad, pad), mode="replicate"), 25, stride=1)
-        season = xt - trend
-        f = (self.trend(trend) + self.season(season))[:, list(self.idx), :].squeeze(-1)
-        inter = torch.stack([f[:, i] * f[:, j] for i, j in self.pairs], dim=-1)
-        out = self.skip(f) + self.lin(f) + self.sq(f * f) + self.inter(inter)
-        return out + self.extra[0] + self.extra[1]
-
-
-class QDLinear4Q(nn.Module):
-    """DLinear trunk with a 4-qubit, 2-layer VQC output (229 parameters)."""
-
-    def __init__(self, input_dim, seq_len=96, horizon=1, qbackend="torch"):
-        super().__init__()
-        self.idx = (23, 4, 7, 16)
-        self.trend = nn.Linear(seq_len, horizon, bias=False)
-        self.season = nn.Linear(seq_len, horizon, bias=False)
-        self.skip = nn.Linear(4, horizon, bias=False)
-        self.qhead = QuantumHeadNoPre(4, 4, 2, qbackend)
-
-    def forward(self, x):
-        xt = x.transpose(1, 2)
-        pad = 12
-        trend = F.avg_pool1d(F.pad(xt, (pad, pad), mode="replicate"), 25, stride=1)
-        season = xt - trend
-        f = (self.trend(trend) + self.season(season))[:, list(self.idx), :].squeeze(-1)
-        return self.skip(f) + self.qhead(f)
-
-
-class QLSTMLite(nn.Module):
-    """Compact LSTM with a 6-qubit VQC readout (about 9.8k parameters)."""
-
-    def __init__(self, input_dim, dim=32, horizon=1, qbackend="torch"):
-        super().__init__()
-        self.inp = nn.Linear(input_dim, dim)
-        self.rnn = nn.LSTM(dim, dim, num_layers=1, batch_first=True)
-        self.pre = nn.Linear(dim, 6)
-        self.skip = nn.Linear(dim, horizon)
-        self.qhead = QuantumHeadNoPre(6, 6, 1, qbackend)
-
-    def forward(self, x):
-        h, _ = self.rnn(self.inp(x))
-        z = h[:, -1]
-        return self.skip(z) + self.qhead(self.pre(z))
-
-
-class LSTMLite(nn.Module):
-    """Parameter-matched classical control for QLSTMLite (linear head)."""
-
-    def __init__(self, input_dim, dim=32, horizon=1):
-        super().__init__()
-        self.inp = nn.Linear(input_dim, dim)
-        self.rnn = nn.LSTM(dim, dim, num_layers=1, batch_first=True)
-        self.head = nn.Linear(dim, horizon)
-
-    def forward(self, x):
-        h, _ = self.rnn(self.inp(x))
-        return self.head(h[:, -1])
 
 
 class FAMQuantumCorrection(nn.Module):
@@ -733,30 +303,12 @@ class FAMQuantumCorrection(nn.Module):
                          projector="classical", qbackend=qbackend, head_hidden=fam_hidden)
         self.idx = (23, 59, 95, 4, 40, 76)  # pooled mean/std/last of Power, ws100
         self.skip = nn.Linear(6, horizon)
-        self.qhead = (QuantumHeadLatent(6, q_qubits, q_layers, qbackend) if latent
-                       else QuantumHeadNoPre(6, 6, q_layers, qbackend))
+        self.qhead = QuantumHeadLatent(6, q_qubits, q_layers, qbackend)
 
     def forward(self, x):
         pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
         feat = pooled[:, list(self.idx)]
         return self.fam(x) + self.skip(feat) + self.qhead(feat)
-
-
-class FAMClassicalCorrection(nn.Module):
-    """Classical control for FAMQuantumCorrection: same trunk, MLP on 6 pooled features."""
-
-    def __init__(self, input_dim, dim=64, horizon=1, fam_hidden=60):
-        super().__init__()
-        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
-                         projector="classical", head_hidden=fam_hidden)
-        self.idx = (23, 59, 95, 4, 40, 76)
-        self.skip = nn.Linear(6, horizon)
-        self.head = nn.Sequential(nn.Linear(6, 6), nn.Tanh(), nn.Linear(6, horizon))
-
-    def forward(self, x):
-        pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
-        feat = pooled[:, list(self.idx)]
-        return self.fam(x) + self.skip(feat) + self.head(feat)
 
 
 class QuantumHeadLatent(nn.Module):
@@ -781,131 +333,6 @@ class QuantumHeadLatent(nn.Module):
 # ----------------------------------------------------------------------
 # Baselines
 # ----------------------------------------------------------------------
-class FAMTemporalQuantum(nn.Module):
-    """FAM trunk with a 6-qubit readout on low-frequency power features."""
-
-    def __init__(self, input_dim, dim=64, horizon=1, qbackend="torch",
-                 fam_hidden=63, quantum=True):
-        super().__init__()
-        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
-                         projector="classical", head_hidden=fam_hidden)
-        self.skip = nn.Linear(6, horizon)
-        if quantum:
-            self.head = QuantumHeadLatent(6, 6, 2, qbackend)
-        else:
-            self.head = nn.Sequential(nn.Linear(6, 6), nn.Tanh(), nn.Linear(6, horizon))
-
-    def forward(self, x):
-        p = x[:, :, 23]
-        spec = torch.fft.rfft(p, dim=1)
-        low = spec[:, 1:4]
-        feat = torch.cat([low.real, low.imag], dim=-1)
-        feat = torch.tanh(feat * 0.1)
-        return self.fam(x) + self.skip(feat) + self.head(feat)
-
-
-class QuantumHeadZ(nn.Module):
-    """Z-only readout control for QuantumHeadLatent."""
-
-    def __init__(self, n_features=6, n_qubits=6, layers=2, backend="torch"):
-        super().__init__()
-        self.q = TorchVQCv2(n_qubits, layers, False)
-        self.post = nn.Linear(n_qubits + n_qubits, 1)
-        nn.init.zeros_(self.post.weight); nn.init.zeros_(self.post.bias)
-
-    def forward(self, x):
-        z = torch.tanh(x)
-        q = self.q(z * math.pi).to(device=x.device, dtype=x.dtype)
-        return self.post(torch.cat([q, z], dim=-1))
-
-
-class FAMQuantumCorrectionRand(FAMQuantumCorrection):
-    def __init__(self, *a, **k):
-        super().__init__(*a, **k)
-        for p in self.qhead.q.parameters():
-            p.requires_grad_(False)
-
-
-class FAMQuantumCorrectionZ(FAMQuantumCorrection):
-    def __init__(self, *a, **k):
-        super().__init__(*a, **k)
-        self.qhead = QuantumHeadZ(6, 6, 2, "torch")
-
-
-class QuantumHeadOnly(nn.Module):
-    """Quantum-only readout: 12 expectations -> scalar, no latent/skip."""
-
-    def __init__(self, n_features=6, n_qubits=6, layers=2, backend="torch"):
-        super().__init__()
-        self.q = TorchVQCv2(n_qubits, layers, True)
-        self.post = nn.Linear(2 * n_qubits, 1)
-        nn.init.zeros_(self.post.weight)
-        nn.init.zeros_(self.post.bias)
-
-    def forward(self, x):
-        z = torch.tanh(x)
-        q = self.q(z * math.pi).to(device=x.device, dtype=x.dtype)
-        return self.post(q)
-
-
-class FAMQuantumOnly(nn.Module):
-    """QFAM-Q: FAM h60 plus quantum readout only."""
-
-    def __init__(self, input_dim, dim=64, horizon=1, qbackend="torch", fam_hidden=60):
-        super().__init__()
-        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
-                         projector="classical", qbackend=qbackend, head_hidden=fam_hidden)
-        self.idx = (23, 59, 95, 4, 40, 76)
-        self.qhead = QuantumHeadOnly(6, 6, 2, qbackend)
-
-    def forward(self, x):
-        pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
-        feat = pooled[:, list(self.idx)]
-        return self.fam(x) + self.qhead(feat)
-
-
-class FAMClassicalMatched(nn.Module):
-    """QFAM-C: exact 62-parameter classical counterpart of the quantum branch.
-
-    skip (7) + per-feature scale (6) + 6->6->1 tanh head (42+7=49) = 62,
-    exactly the added-parameter count of QFAM (skip 7 + readout 19 + angles 36).
-    """
-
-    def __init__(self, input_dim, dim=64, horizon=1, fam_hidden=60):
-        super().__init__()
-        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
-                         projector="classical", head_hidden=fam_hidden)
-        self.idx = (23, 59, 95, 4, 40, 76)
-        self.skip = nn.Linear(6, horizon)
-        self.scale = nn.Parameter(torch.ones(6))
-        self.head = nn.Sequential(nn.Linear(6, 6), nn.Tanh(), nn.Linear(6, horizon))
-        nn.init.zeros_(self.head[-1].weight)
-        nn.init.zeros_(self.head[-1].bias)
-
-    def forward(self, x):
-        pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
-        feat = pooled[:, list(self.idx)]
-        return self.fam(x) + self.skip(feat) + self.head(feat * self.scale)
-
-
-class FAMHybridCorrection(nn.Module):
-    """FAM trunk with a classical pooled MLP plus a small quantum residual."""
-
-    def __init__(self, input_dim, dim=64, horizon=1, qbackend="torch", fam_hidden=60):
-        super().__init__()
-        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
-                         projector="classical", head_hidden=fam_hidden)
-        self.idx = (23, 59, 95, 4, 40, 76)
-        self.skip = nn.Linear(6, horizon)
-        self.cls = nn.Sequential(nn.Linear(6, 6), nn.Tanh(), nn.Linear(6, horizon))
-        self.qhead = QuantumHeadLatent(6, 6, 2, qbackend)
-
-    def forward(self, x):
-        pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
-        feat = pooled[:, list(self.idx)]
-        return self.fam(x) + self.skip(feat) + self.cls(feat) + self.qhead(feat)
-
-
 class CNN(nn.Module):
     """Compact 1D CNN baseline over the 96x36 window."""
 
@@ -919,19 +346,6 @@ class CNN(nn.Module):
 
     def forward(self, x):
         return self.net(x.transpose(1, 2))
-
-
-class MLP(nn.Module):
-    """Pooled MLP baseline: mean, std and last observation."""
-    def __init__(self, input_dim, seq_len=96, horizon=1, hidden=256, dropout=0.1):
-        super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(3 * input_dim, hidden), nn.GELU(), nn.Dropout(dropout),
-            nn.Linear(hidden, hidden // 2), nn.GELU(), nn.Dropout(dropout),
-            nn.Linear(hidden // 2, horizon))
-
-    def forward(self, x):
-        return self.net(torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1))
 
 
 class LSTM(nn.Module):
@@ -983,43 +397,6 @@ class DLinear(nn.Module):
         return self.out(y.reshape(y.shape[0], -1))
 
 
-class PatchTST(nn.Module):
-    def __init__(self, input_dim, seq_len=96, horizon=1, patch=16, stride=8,
-                 dim=64, heads=4, dropout=0.1):
-        super().__init__()
-        self.patch, self.stride = patch, stride
-        n = (seq_len - patch) // stride + 1
-        self.proj = nn.Linear(patch * input_dim, dim)
-        self.pos = nn.Parameter(torch.zeros(1, n, dim))
-        layer = nn.TransformerEncoderLayer(dim, heads, dim * 2, dropout,
-                                           batch_first=True, norm_first=True)
-        self.enc = nn.TransformerEncoder(layer, 1)
-        self.head = nn.Sequential(nn.LayerNorm(2 * dim), nn.Linear(2 * dim, horizon))
-
-    def forward(self, x):
-        B, L, F = x.shape
-        patches = x.unfold(1, self.patch, self.stride)  # [B,n,F,patch]
-        patches = patches.permute(0, 1, 3, 2).reshape(B, -1, self.patch * F)
-        h = self.enc(self.proj(patches) + self.pos)
-        return self.head(torch.cat([h.mean(1), h[:, -1]], dim=-1))
-
-
-class ITransformer(nn.Module):
-    def __init__(self, input_dim, seq_len=96, horizon=1, dim=64, heads=4,
-                 dropout=0.1):
-        super().__init__()
-        self.inp = nn.Linear(seq_len, dim)
-        layer = nn.TransformerEncoderLayer(dim, heads, dim * 2, dropout,
-                                           batch_first=True, norm_first=True)
-        self.enc = nn.TransformerEncoder(layer, 1)
-        self.head = nn.Sequential(nn.LayerNorm(2 * dim), nn.Linear(2 * dim, horizon))
-
-    def forward(self, x):
-        # [B,L,F] -> [B,F,L] -> variate tokens
-        h = self.enc(self.inp(x.transpose(1, 2)))
-        return self.head(torch.cat([h.mean(1), h[:, -1]], dim=-1))
-
-
 def count_params(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
@@ -1028,186 +405,20 @@ def build_model(name, input_dim, seq_len=96, horizon=1, dim=64, qbackend="torch"
     name = name.lower()
     if name == "persistence":
         return None
-    if name == "mlp":
-        return MLP(input_dim, seq_len, horizon)
     if name == "lstm":
         return LSTM(input_dim, dim, horizon)
+    if name == "cnn":
+        return CNN(input_dim, seq_len, horizon)
     if name == "transformer":
         return Transformer(input_dim, dim, horizon)
     if name == "dlinear":
         return DLinear(input_dim, seq_len, horizon)
-    if name == "patchtst":
-        return PatchTST(input_dim, seq_len, horizon, dim=dim)
-    if name == "itransformer":
-        return ITransformer(input_dim, seq_len, horizon, dim=dim)
     if name == "fam":
         return FAMv2(input_dim, dim, horizon, layers=1, projector="classical", qbackend=qbackend)
-    if name == "fam_qh":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend)
-    if name == "fam_cls60":
-        return FAMClassicalCorrection(input_dim, dim, horizon, fam_hidden=60)
-    if name == "fam_cls64":
-        return FAMClassicalCorrection(input_dim, dim, horizon, fam_hidden=64)
-    if name == "fam_qhp":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, head_type="quantum")
-    if name == "fam_qhp12":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, head_type="quantum12")
-    if name == "fam_qhp16":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, head_type="quantum16")
-    if name == "fam_tq":
-        return FAMTemporalQuantum(input_dim, dim, horizon, qbackend)
-    if name == "fam_tc":
-        return FAMTemporalQuantum(input_dim, dim, horizon, qbackend, quantum=False)
-    if name == "fam_hyb":
-        return FAMHybridCorrection(input_dim, dim, horizon, qbackend)
-    if name == "fam_qh_lat1":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True, q_layers=1)
-    if name == "fam_qh_1":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=False, q_layers=1)
-    if name == "fam_qh_2":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=False, q_layers=2)
-    if name == "fam_qh_lat":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True)
-    if name == "fam_qh_lat3":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True, q_layers=3)
-    if name == "fam_qh_lat4":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True, q_layers=4)
-    if name == "fam_qh8":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True, q_qubits=8)
-    if name == "fam_qh8_63":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True,
-                                    fam_hidden=63, q_qubits=8)
-    if name == "fam_qh_lat6_63":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True,
-                                    fam_hidden=63, q_layers=6)
-    if name == "fam_qh8_60l4":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, latent=True,
-                                    fam_hidden=60, q_qubits=8, q_layers=4)
-    if name == "fam_qh60lat_rand":
-        return FAMQuantumCorrectionRand(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True)
-    if name == "fam_qh60lat_z":
-        return FAMQuantumCorrectionZ(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True)
-    if name == "fam_qonly60":
-        return FAMQuantumOnly(input_dim, dim, horizon, qbackend, fam_hidden=60)
-    if name == "fam_cls_match60":
-        return FAMClassicalMatched(input_dim, dim, horizon, fam_hidden=60)
-    if name == "fam_qh60lat":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True)
-    if name == "fam_qh60lat3":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True, q_layers=3)
-    if name == "fam_qh58lat3":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, fam_hidden=58, latent=True, q_layers=3)
-    if name == "fam_qh56lat4":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, fam_hidden=56, latent=True, q_layers=4)
-    if name == "fam_qh60":
-        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, fam_hidden=60)
     if name == "fam_h60":
         return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
                      qbackend=qbackend, head_hidden=60)
-    if name == "qfam_res":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res", qbackend=qbackend)
-    if name == "qfam_rand":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_rand", qbackend=qbackend)
-    if name == "qfam_bot":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_bot", qbackend=qbackend)
-    if name == "qfam_cls":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical_res", qbackend=qbackend)
-    if name == "qfam_z":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, measure_x=False)
-    if name == "qfam_low":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=4)
-    if name == "qfam_gate":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_gate=True)
-    if name == "qfam_4q":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, n_qubits=4, q_layers=1)
-    if name == "qfam_8q":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, n_qubits=8, q_layers=1)
-    if name == "qfam_head":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, qhead="quantum")
-    if name == "qfam_head_rand":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, qhead="random")
-    if name == "qfam_head_cls":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, qhead="classical")
-    if name == "qfam_full":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, qhead="quantum")
-    if name == "qfam_phys":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="classical",
-                     qbackend=qbackend, qhead="phys")
-    if name == "q_dlinear":
-        return QDLinear(input_dim, seq_len, horizon, dim, qbackend, "quantum")
-    if name == "q_dlinear_rand":
-        return QDLinear(input_dim, seq_len, horizon, dim, qbackend, "random")
-    if name == "q_dlinear_cls":
-        return QDLinear(input_dim, seq_len, horizon, dim, qbackend, "classical")
-    if name == "dlinear_mlp":
-        return DLinearMLP(input_dim, seq_len, horizon, hidden=32)
-    if name == "dlinear_qsum":
-        return DLinearQSummary(input_dim, seq_len, horizon, qbackend)
-    if name == "q_dlinear_lite":
-        return QDLinearLite(input_dim, seq_len, horizon, qbackend)
-    if name == "qfam_low2":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=2)
-    if name == "qfam_low8":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=8)
-    if name == "qfam_low_h32":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=4, head_hidden=32)
-    if name == "qfam_low_h48":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=4, head_hidden=48)
-    if name == "qfam_low_h60r1":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=1, head_hidden=60)
-    if name == "qfam_low_h56":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=4, head_hidden=56)
-    if name == "qfam_low_trim":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=4, trim=True)
-    if name == "cnn":
-        return CNN(input_dim, dim=32, horizon=horizon)
-    if name == "lstm_lite":
-        return LSTMLite(input_dim, dim=32, horizon=horizon)
-    if name == "qlstm":
-        return QLSTMLite(input_dim, dim=32, horizon=horizon, qbackend=qbackend)
-    if name == "qdlinear_4q":
-        return QDLinear4Q(input_dim, seq_len, horizon, qbackend=qbackend)
-    if name == "qdlinear_cls":
-        return QDLinearClassical(input_dim, seq_len, horizon)
-    if name == "qdlinear_top":
-        return QDLinearLite(input_dim, seq_len, horizon, qbackend=qbackend,
-                            idx=(23, 14, 30, 4, 32, 25))
-    if name == "qdlinear_power":
-        return QDLinearLite(input_dim, seq_len, horizon, qbackend=qbackend,
-                            idx=(23, 4, 7, 3, 16, 17))
-    if name == "qdlinear_power_b":
-        return QDLinearLite(input_dim, seq_len, horizon, qbackend=qbackend,
-                            idx=(23, 4, 7, 3, 16, 17), bias=True)
-    if name == "qdlinear_met":
-        return QDLinearLite(input_dim, seq_len, horizon, qbackend=qbackend,
-                            idx=(23, 4, 3, 7, 12, 18))
-    if name == "qdlinear_mix":
-        return QDLinearLite(input_dim, seq_len, horizon, qbackend=qbackend,
-                            idx=(23, 4, 7, 16, 17, 18))
-    if name == "qdlinear_group":
-        return QDLinearLiteProj(input_dim, seq_len, horizon, qbackend=qbackend, mode="group")
-    if name == "qdlinear_rand":
-        return QDLinearLiteProj(input_dim, seq_len, horizon, qbackend=qbackend, mode="rand")
-    if name == "qfam_low_z":
-        return FAMv2(input_dim, dim, horizon, layers=1, projector="quantum_res",
-                     qbackend=qbackend, q_low_rank=4, measure_x=False)
-    raise ValueError(name)
+    if name == "fam_qh60lat":
+        return FAMQuantumCorrection(input_dim, dim, horizon, qbackend,
+                                    fam_hidden=60, latent=True)
+    raise ValueError(f"Unknown model: {name}")

@@ -10,18 +10,12 @@ Huaneng observations are proprietary and are not included.
 |---|---|
 | `main_comparison.csv` | per-seed FAM, QFAM, LSTM, CNN, Transformer, DLinear |
 | `summary_main.csv` | mean/std across seeds for the main comparison |
-| `ablation.csv` | per-seed FAM h64, FAM h60, QFAM, random-angle, Z-only |
+| `ablation.csv` | per-seed FAM h64, FAM h60, QFAM |
 | `summary_ablation.csv` | mean/std for the ablation |
-| `readout_controls.csv` | per-seed trained/zero/mean/shuffled/random readout |
+| `readout_controls.csv` | per-seed trained/zero/mean/shuffled readout |
 | `readout_controls_summary.csv` | mean/std for the readout controls |
 | `all_results_long.csv` | all per-seed model/variant rows in one table |
 | `paired_stats.csv` | origin-level paired QFAM-FAM DM/bootstrap analysis |
-| `qgain_screening.csv` | per-seed QFAM-Q and QFAM-C screening |
-| `qgain_summary.csv` | QFAM-Q/QFAM-C means and standard deviations |
-| `qgain_paired_stats.csv` | paired tests for QFAM-Q and QFAM-C |
-| `qer_screening.csv` | per-seed QER and QER-C screening |
-| `qer_summary.csv` | QER/QER-C means and standard deviations |
-| `qer_paired_stats.csv` | paired tests for QER and QER-C |
 | `backend_parity.csv` | torch/PyVQNet/pyqpanda3 parity and metrics |
 | `hardware_planned.csv` | **planned** hardware arms; no hardware results yet |
 | `hardware_cost_estimate.csv` | QPU-time estimate at 1,000/4,000 shots |

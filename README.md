@@ -27,9 +27,9 @@ Reported on the private external farm (three seeds):
 | FAM | 69,893 | 6.181 | 11.460 | 6.998 |
 | QFAM | 69,435 | 5.938 | 11.160 | 6.423 |
 
-The random-angle control is 5.950 MW; the benefit is mainly the fixed quantum
-feature map, not the training of the rotation angles. See the manuscript for
-the full limitations.
+The zero-readout control is 5.915 MW, slightly better than the trained 5.938 MW:
+the forecasting gain is a classical architecture effect, not a quantum-specific
+one. See the manuscript for the full attribution and limitations.
 
 ## Install
 
@@ -92,24 +92,16 @@ The script writes the torch, PyVQNet and pyqpanda3 metrics and the maximum
 readout difference. On the development CPU, 1,921 windows take about 0.7 s
 with PyVQNet and 5 s with pyqpanda3.
 
-## Quantum-only and matched-classical models
-
-The screening models are available as `fam_qonly60` (QFAM-Q: FAM h60 plus the
-12 quantum expectations only) and `fam_cls_match60` (QFAM-C: exactly 62 added
-classical parameters). They use the same data and training command as QFAM:
-
-```bash
-python -m qfam_v2.train --csv_path dataset/Location1.csv --model fam_qonly60 ...
-python -m qfam_v2.train --csv_path dataset/Location1.csv --model fam_cls_match60 ...
-```
-
 ## Readout controls
 
 The paper's central control replaces the 12 quantum expectations by zero, their
 test-set mean or a shuffled vector, without retraining:
 
 ```bash
-python -m qfam_v2.readout_controls   --checkpoint results/external/qfam_s42/best_weights.pt   --external_csv dataset/winf_fam1.csv   --out results/readout_controls.json
+python -m qfam_v2.readout_controls \
+  --checkpoint results/external/qfam_s42/best_weights.pt \
+  --external_csv dataset/winf_fam1.csv \
+  --out results/readout_controls.json
 ```
 
 `results/readout_controls.json` reports RMSE for the trained, zero, mean and
