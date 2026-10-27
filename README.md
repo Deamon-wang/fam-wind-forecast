@@ -92,6 +92,17 @@ The script writes the torch, PyVQNet and pyqpanda3 metrics and the maximum
 readout difference. On the development CPU, 1,921 windows take about 0.7 s
 with PyVQNet and 5 s with pyqpanda3.
 
+## Quantum-only and matched-classical models
+
+The screening models are available as `fam_qonly60` (QFAM-Q: FAM h60 plus the
+12 quantum expectations only) and `fam_cls_match60` (QFAM-C: exactly 62 added
+classical parameters). They use the same data and training command as QFAM:
+
+```bash
+python -m qfam_v2.train --csv_path dataset/Location1.csv --model fam_qonly60 ...
+python -m qfam_v2.train --csv_path dataset/Location1.csv --model fam_cls_match60 ...
+```
+
 ## Readout controls
 
 The paper's central control replaces the 12 quantum expectations by zero, their

@@ -832,6 +832,62 @@ class FAMQuantumCorrectionZ(FAMQuantumCorrection):
         self.qhead = QuantumHeadZ(6, 6, 2, "torch")
 
 
+class QuantumHeadOnly(nn.Module):
+    """Quantum-only readout: 12 expectations -> scalar, no latent/skip."""
+
+    def __init__(self, n_features=6, n_qubits=6, layers=2, backend="torch"):
+        super().__init__()
+        self.q = TorchVQCv2(n_qubits, layers, True)
+        self.post = nn.Linear(2 * n_qubits, 1)
+        nn.init.zeros_(self.post.weight)
+        nn.init.zeros_(self.post.bias)
+
+    def forward(self, x):
+        z = torch.tanh(x)
+        q = self.q(z * math.pi).to(device=x.device, dtype=x.dtype)
+        return self.post(q)
+
+
+class FAMQuantumOnly(nn.Module):
+    """QFAM-Q: FAM h60 plus quantum readout only."""
+
+    def __init__(self, input_dim, dim=64, horizon=1, qbackend="torch", fam_hidden=60):
+        super().__init__()
+        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
+                         projector="classical", qbackend=qbackend, head_hidden=fam_hidden)
+        self.idx = (23, 59, 95, 4, 40, 76)
+        self.qhead = QuantumHeadOnly(6, 6, 2, qbackend)
+
+    def forward(self, x):
+        pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
+        feat = pooled[:, list(self.idx)]
+        return self.fam(x) + self.qhead(feat)
+
+
+class FAMClassicalMatched(nn.Module):
+    """QFAM-C: exact 62-parameter classical counterpart of the quantum branch.
+
+    skip (7) + per-feature scale (6) + 6->6->1 tanh head (42+7=49) = 62,
+    exactly the added-parameter count of QFAM (skip 7 + readout 19 + angles 36).
+    """
+
+    def __init__(self, input_dim, dim=64, horizon=1, fam_hidden=60):
+        super().__init__()
+        self.fam = FAMv2(input_dim, dim, horizon, layers=1,
+                         projector="classical", head_hidden=fam_hidden)
+        self.idx = (23, 59, 95, 4, 40, 76)
+        self.skip = nn.Linear(6, horizon)
+        self.scale = nn.Parameter(torch.ones(6))
+        self.head = nn.Sequential(nn.Linear(6, 6), nn.Tanh(), nn.Linear(6, horizon))
+        nn.init.zeros_(self.head[-1].weight)
+        nn.init.zeros_(self.head[-1].bias)
+
+    def forward(self, x):
+        pooled = torch.cat([x.mean(1), x.std(1), x[:, -1]], dim=-1)
+        feat = pooled[:, list(self.idx)]
+        return self.fam(x) + self.skip(feat) + self.head(feat * self.scale)
+
+
 class FAMHybridCorrection(nn.Module):
     """FAM trunk with a classical pooled MLP plus a small quantum residual."""
 
@@ -1034,6 +1090,10 @@ def build_model(name, input_dim, seq_len=96, horizon=1, dim=64, qbackend="torch"
         return FAMQuantumCorrectionRand(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True)
     if name == "fam_qh60lat_z":
         return FAMQuantumCorrectionZ(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True)
+    if name == "fam_qonly60":
+        return FAMQuantumOnly(input_dim, dim, horizon, qbackend, fam_hidden=60)
+    if name == "fam_cls_match60":
+        return FAMClassicalMatched(input_dim, dim, horizon, fam_hidden=60)
     if name == "fam_qh60lat":
         return FAMQuantumCorrection(input_dim, dim, horizon, qbackend, fam_hidden=60, latent=True)
     if name == "fam_qh60lat3":
