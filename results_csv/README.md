@@ -16,6 +16,9 @@ Huaneng observations are proprietary and are not included.
 | `readout_controls_summary.csv` | mean/std for the readout controls |
 | `all_results_long.csv` | all per-seed model/variant rows in one table |
 | `paired_stats.csv` | origin-level paired QFAM-FAM DM/bootstrap analysis |
+| `qgain_screening.csv` | per-seed QFAM-Q and QFAM-C screening |
+| `qgain_summary.csv` | QFAM-Q/QFAM-C means and standard deviations |
+| `qgain_paired_stats.csv` | paired tests for QFAM-Q and QFAM-C |
 | `backend_parity.csv` | torch/PyVQNet/pyqpanda3 parity and metrics |
 | `hardware_planned.csv` | **planned** hardware arms; no hardware results yet |
 | `hardware_cost_estimate.csv` | QPU-time estimate at 1,000/4,000 shots |
