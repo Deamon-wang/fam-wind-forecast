@@ -2,6 +2,15 @@
 
 Code and the **public Location1 dataset** for the revised QFAM experiments.
 
+## Multi-station models (current manuscript)
+
+`multistation/` holds the model code for the revised multi-station
+experiments: the FAM / QFAM / QFAM_C family (Flow-Attention output
+projection: linear vs 6-qubit VQC vs GELU control), the LSTM / Transformer /
+Informer / TimesNet baselines, and the pyvqnet / pyqpanda3 quantum circuits.
+See `multistation/README.md` for the model table, usage and headline
+six-station results.
+
 ## Data availability
 
 - `dataset/Location1.csv` is the public Location1 benchmark used for training.
@@ -126,6 +135,7 @@ parity tables are in `results_csv/`. They are aggregate metrics only; the raw
 ## Repository layout
 
 ```
+multistation/    FAM/QFAM/QFAM_C models, baselines, quantum circuits (revised)
 qfam_v2/          training, data, models, circuit export, backend replay
 revision/         minimal Mamba/positional-encoding dependency
 dataset/          Location1.csv (public); winf_fam1.csv is not included
